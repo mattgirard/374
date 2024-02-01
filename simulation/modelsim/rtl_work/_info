@@ -1,0 +1,123 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/simulation/modelsim
+vadder
+Z1 !s110 1706802579
+!i10b 1
+!s100 bRjYOY_U6_P3XDzQFhMoU2
+IHPd^^N>@VYmzc?VKA3@nH0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1706383269
+8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v
+FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1706802579.000000
+!s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374}
+Z7 tCvgOpt 0
+vBus
+R1
+!i10b 1
+!s100 96XEeOTe:gdCRN@]_><_10
+ImdDJUlCdgKY:4eEH`bb]L3
+R2
+R0
+w1706383283
+8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v|
+!i113 1
+R5
+R6
+R7
+n@bus
+vDataPath
+R1
+!i10b 1
+!s100 fDbBB@ng?9dM_9bnOTRhH0
+IFmC=V7lED_hG_C41OTFB21
+R2
+R0
+Z8 w1706802529
+8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v
+FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v|
+!i113 1
+R5
+R6
+R7
+n@data@path
+vregister
+R1
+!i10b 1
+!s100 ZU@z_HI?E:9h:TenPn;Vg3
+IElD4>_cNHF794QA1>7aE<0
+R2
+R0
+w1706799739
+8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register.v
+FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register.v|
+!i113 1
+R5
+R6
+R7
+vTutorial_tb
+R1
+!i10b 1
+!s100 VLTbmHn?=fH>Z:o=]Gm[i3
+IWG>nJML?`7<W9fVaX6`2C2
+R2
+R0
+R8
+8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Tutorial_tb.v
+FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Tutorial_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Tutorial_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Tutorial_tb.v|
+!i113 1
+R5
+R6
+R7
+n@tutorial_tb

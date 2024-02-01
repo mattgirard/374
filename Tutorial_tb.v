@@ -1,49 +1,58 @@
-`timescale 1ns/10ps
-module Tutorial_tb();
-reg clock, clear, RZout, RAout, RBout, RAin, RBin, RZin;
-reg [7:0] AddImmediate;
-reg [7:0] RegisterAImmediate;
+`timescale 1ns / 1ps
 
-reg [3:0] present_state;
+module Tutorial_tb;
 
-DataPath DP(
-	clock, clear,
-	AddImmediate,
-	RegisterAImmediate,
-	RZout, RAout, RBout,
-	RAin, RBin, RZin
-);
+    // Inputs to the DataPath
+    reg clock;
+    reg clear;
+    reg write_enable1;
+    reg [7:0] write_data1;
 
-parameter init = 4'd1, T0 = 4'd2, T1 = 4'd3, T2 = 4'd4;
-			 
-initial begin clock = 0; present_state = 4'd0; end
-always #10 clock = ~clock;
-always @ (negedge clock) present_state = present_state + 1;
-	
-always @(present_state) begin
-	case(present_state)
-		init: begin
-			clear <= 1;
-			AddImmediate <= 8'h00; RegisterAImmediate <= 8'h00;
-			RZout <= 0; RAout <= 0; RBout <= 0; RAin <= 0; RBin <= 0; RZin <= 0;
-			#15 clear <= 0;
-		end
-		// ldi A, 5
-		T0: begin
-			RegisterAImmediate <= 8'b101; RAin <= 1;
-			#15 RegisterAImmediate <= 8'h00; RAin <= 0;
-		end
-	// addi B, A, 5 - 2 steps
-		// add value in register A and immediate 5 and then save in Z
-		T1: begin
-			RAout <= 1; AddImmediate <= 8'h5; RZin <= 1;
-			#15 RAout <= 0; RZin <= 0;
-		end
-		// mv B, Z - move value in Z to B
-		T2: begin
-			RZout <= 1; RBin <= 1;
-			#15 RZout <= 0; RBin <= 0;
-		end
-	endcase
-end
+    // Output from R1
+    wire [7:0] read_data1;
+
+    // Instantiate the DataPath
+    DataPath uut (
+        .clock(clock),
+        .clear(clear),
+        .write_enable1(write_enable1),
+        .write_data1(write_data1),
+        .read_data1(read_data1)
+    );
+
+    // Clock generation
+    initial begin
+        clock = 0;
+        forever #10 clock = ~clock;
+    end
+
+    // Test sequence
+    initial begin
+        // Initialize Inputs
+        clear = 1;
+        write_enable1 = 0;
+        write_data1 = 8'd0;
+
+        // Reset the system
+        #50;
+        clear = 0;
+
+        // Test Case: Write to R1
+        write_enable1 = 1;
+        write_data1 = 8'd123; // Example value to write
+        #20; // Wait for a while
+        write_enable1 = 0; // Disable write after writing
+
+        // Add more test cases as needed
+
+        // Finish the simulation
+        #100;
+        $finish;
+    end
+
+    initial begin
+        $monitor("Time = %t : write_enable1 = %b, write_data1 = %d, read_data1 = %d",
+                  $time, write_enable1, write_data1, read_data1);
+    end
+
 endmodule

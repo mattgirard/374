@@ -1,9 +1,10 @@
 module DataPath(
 	input wire clock, clear,
-	input wire [7:0] A, 
-	input wire [7:0] RegisterAImmediate,
-	input wire RZout, RAout, RBout,
-	input wire RAin, RBin, RZin
+	input wire write_enable1,
+	input wire [7:0] write_data1,
+	output wire [7:0] read_data1
+	
+	
 );
 
 wire [7:0] BusMuxOut, BusMuxInRZ, BusMuxInRA, BusMuxInRB; 
@@ -13,6 +14,10 @@ wire [7:0] Zregin;
 //Devices
 register RA(clear, clock, RAin, RegisterAImmediate, BusMuxInRA);
 register RB(clear, clock, RBin, BusMuxOut, BusMuxInRB);
+register R1(clear, clock, write_enable1, write_data1, read_data1);
+
+
+
 
 // adder
 adder add(A, BusMuxOut, Zregin);
