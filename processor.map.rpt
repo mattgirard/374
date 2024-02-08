@@ -1,5 +1,5 @@
 Analysis & Elaboration report for processor
-Thu Feb 01 10:49:07 2024
+Wed Feb 07 22:35:15 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -9,14 +9,8 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   1. Legal Notice
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
-  4. Parameter Settings for User Entity Instance: register:RA
-  5. Parameter Settings for User Entity Instance: register:RB
-  6. Parameter Settings for User Entity Instance: register:R1
-  7. Parameter Settings for User Entity Instance: register:RZ
-  8. Analysis & Elaboration Settings
-  9. Port Connectivity Checks: "adder:add"
- 10. Port Connectivity Checks: "register:RA"
- 11. Analysis & Elaboration Messages
+  4. Analysis & Elaboration Settings
+  5. Analysis & Elaboration Messages
 
 
 
@@ -42,10 +36,10 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Thu Feb 01 10:49:07 2024       ;
+; Analysis & Elaboration Status ; Failed - Wed Feb 07 22:35:15 2024           ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                 ; processor                                   ;
-; Top-level Entity Name         ; DataPath                                    ;
+; Top-level Entity Name         ; mini_src_tb                                 ;
 ; Family                        ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
 ; Total registers               ; N/A until Partition Merge                   ;
@@ -73,61 +67,13 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------+
-; Parameter Settings for User Entity Instance: register:RA ;
-+----------------+----------+------------------------------+
-; Parameter Name ; Value    ; Type                         ;
-+----------------+----------+------------------------------+
-; DATA_WIDTH_IN  ; 8        ; Signed Integer               ;
-; DATA_WIDTH_OUT ; 8        ; Signed Integer               ;
-; INIT           ; 00000000 ; Unsigned Binary              ;
-+----------------+----------+------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------+
-; Parameter Settings for User Entity Instance: register:RB ;
-+----------------+----------+------------------------------+
-; Parameter Name ; Value    ; Type                         ;
-+----------------+----------+------------------------------+
-; DATA_WIDTH_IN  ; 8        ; Signed Integer               ;
-; DATA_WIDTH_OUT ; 8        ; Signed Integer               ;
-; INIT           ; 00000000 ; Unsigned Binary              ;
-+----------------+----------+------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------+
-; Parameter Settings for User Entity Instance: register:R1 ;
-+----------------+----------+------------------------------+
-; Parameter Name ; Value    ; Type                         ;
-+----------------+----------+------------------------------+
-; DATA_WIDTH_IN  ; 8        ; Signed Integer               ;
-; DATA_WIDTH_OUT ; 8        ; Signed Integer               ;
-; INIT           ; 00000000 ; Unsigned Binary              ;
-+----------------+----------+------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------+
-; Parameter Settings for User Entity Instance: register:RZ ;
-+----------------+----------+------------------------------+
-; Parameter Name ; Value    ; Type                         ;
-+----------------+----------+------------------------------+
-; DATA_WIDTH_IN  ; 8        ; Signed Integer               ;
-; DATA_WIDTH_OUT ; 8        ; Signed Integer               ;
-; INIT           ; 00000000 ; Unsigned Binary              ;
-+----------------+----------+------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +---------------------------------------------------------------------------------------------------------------------------+
 ; Analysis & Elaboration Settings                                                                                           ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CEBA4F17C8        ;                    ;
-; Top-level entity name                                                           ; DataPath           ; processor          ;
+; Top-level entity name                                                           ; mini_src_tb        ; processor          ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -208,31 +154,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "adder:add"                                                                                                                               ;
-+------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                                                                                   ;
-+------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------+
-; A    ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (8 bits) it drives.  Extra input bit(s) "A[7..1]" will be connected to GND. ;
-+------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "register:RA"                                                                                                                                          ;
-+-----------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port      ; Type  ; Severity ; Details                                                                                                                                           ;
-+-----------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
-; BusMuxOut ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (8 bits) it drives.  Extra input bit(s) "BusMuxOut[7..1]" will be connected to GND. ;
-+-----------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Feb 01 10:48:54 2024
+    Info: Processing started: Wed Feb 07 22:35:01 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off processor -c processor --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -248,8 +176,10 @@ Info (12021): Found 1 design units, including 1 entities, in source file registe
     Info (12023): Found entity 1: register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file subtract.v
     Info (12023): Found entity 1: subtractor File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file register_file.v
-    Info (12023): Found entity 1: register_file File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register_file.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mini_src.v
+    Info (12023): Found entity 1: mini_src File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/mini_src.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file mini_src_tb.v
+    Info (12023): Found entity 1: mini_src_tb File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/mini_src_tb.v Line: 3
 Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(15): created implicit net for "RAin" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 15
 Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(15): created implicit net for "RegisterAImmediate" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 15
 Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(16): created implicit net for "RBin" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 16
@@ -258,24 +188,16 @@ Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(24): created imp
 Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(27): created implicit net for "RZout" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 27
 Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(27): created implicit net for "RAout" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 27
 Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(27): created implicit net for "RBout" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 27
-Info (12127): Elaborating entity "DataPath" for the top level hierarchy
-Info (12128): Elaborating entity "register" for hierarchy "register:RA" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 15
-Info (12128): Elaborating entity "adder" for hierarchy "adder:add" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 23
-Info (12128): Elaborating entity "Bus" for hierarchy "Bus:bus" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 27
-Warning (10240): Verilog HDL Always Construct warning at Bus.v(13): inferring latch(es) for variable "q", which holds its previous value in one or more paths through the always construct File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 13
-Info (10041): Inferred latch for "q[0]" at Bus.v(15) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 15
-Info (10041): Inferred latch for "q[1]" at Bus.v(15) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 15
-Info (10041): Inferred latch for "q[2]" at Bus.v(15) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 15
-Info (10041): Inferred latch for "q[3]" at Bus.v(15) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 15
-Info (10041): Inferred latch for "q[4]" at Bus.v(15) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 15
-Info (10041): Inferred latch for "q[5]" at Bus.v(15) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 15
-Info (10041): Inferred latch for "q[6]" at Bus.v(15) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 15
-Info (10041): Inferred latch for "q[7]" at Bus.v(15) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 15
-Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 11 warnings
-    Info: Peak virtual memory: 4771 megabytes
-    Info: Processing ended: Thu Feb 01 10:49:07 2024
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:13
+Warning (10236): Verilog HDL Implicit Net warning at mini_src.v(19): created implicit net for "pc_enable" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/mini_src.v Line: 19
+Warning (10236): Verilog HDL Implicit Net warning at mini_src.v(20): created implicit net for "pc_input" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/mini_src.v Line: 20
+Warning (10236): Verilog HDL Implicit Net warning at mini_src.v(28): created implicit net for "ir_enable" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/mini_src.v Line: 28
+Warning (10236): Verilog HDL Implicit Net warning at mini_src.v(29): created implicit net for "ir_input" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/mini_src.v Line: 29
+Warning (10236): Verilog HDL Implicit Net warning at mini_src_tb.v(22): created implicit net for "gp_output" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/mini_src_tb.v Line: 22
+Error (10773): Verilog HDL error at Bus.v(3): declaring module ports or function arguments with unpacked array types requires SystemVerilog extensions File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 3
+Error: Quartus Prime Analysis & Elaboration was unsuccessful. 1 error, 14 warnings
+    Error: Peak virtual memory: 4768 megabytes
+    Error: Processing ended: Wed Feb 07 22:35:15 2024
+    Error: Elapsed time: 00:00:14
+    Error: Total CPU time (on all processors): 00:00:13
 
 

@@ -6,10 +6,10 @@ module Tutorial_tb;
     reg clock;
     reg clear;
     reg write_enable1;
-    reg [7:0] write_data1;
+    reg [31:0] write_data1;
 
     // Output from R1
-    wire [7:0] read_data1;
+    wire [31:0] read_data1;
 
     // Instantiate the DataPath
     DataPath uut (

@@ -1,0 +1,52 @@
+`timescale 1ns / 1ps
+
+module mini_src_tb;
+
+    // Inputs to the mini_src
+    reg clock;
+    reg clear;
+    reg [3:0] gp_register_select; // Control signal for selecting the register
+    reg [31:0] gp_input[15:0]; // Input data for each register
+    reg [15:0] gp_enable; // Enable signals for each register
+    wire [31:0] BusMuxOut; // Output of the bus
+
+    // Instantiate the mini_src
+    mini_src uut (
+        .clear(clear),
+        .clock(clock),
+        // ... other connections
+    );
+
+    // Generate a clock signal
+    initial begin
+        clock = 0;
+        forever #10 clock = ~clock;
+    end
+
+    // Test sequence
+    initial begin
+        // Initialize inputs
+        clear = 1;
+        gp_register_select = 4'b0000;
+        gp_enable = 16'h0;
+        gp_input = {16{32'h0}};
+
+        // Reset the system
+        #50;
+        clear = 0;
+
+        // Test cases here
+        // You will need to write enable signals, select signals, and provide data
+        // to your general-purpose registers, then select them and read from the bus.
+
+        // Finish the simulation
+        #100;
+        $finish;
+    end
+
+    // Monitor the bus output
+    initial begin
+        $monitor("Time = %t : BusMuxOut = %h", $time, BusMuxOut);
+    end
+
+endmodule
