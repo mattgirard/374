@@ -30,157 +30,106 @@ wire gp_enable0, gp_enable1, gp_enable2, gp_enable3,
      gp_enable4, gp_enable5, gp_enable6, gp_enable7,
      gp_enable8, gp_enable9, gp_enable10, gp_enable11,
      gp_enable12, gp_enable13, gp_enable14, gp_enable15;
+	  
+wire [3:0] gp_register_select;
+
 
 
 // Instantiate the Program Counter (PC) register
 register #(32, 32, 32'h0) pc_register (
-  .clear(clear),
-  .clock(clock),
-  .enable(pc_enable),
-  .BusMuxOut(pc_input),
-  .BusMuxIn(pc_output)
+  .clear(clear),.clock(clock),.enable(pc_enable),.BusMuxOut(pc_input),.BusMuxIn(pc_output)
 );
 
 // Instantiate the Instruction Register (IR)
 register #(32, 32, 32'h0) ir_register (
-  .clear(clear),
-  .clock(clock),
-  .enable(ir_enable),
-  .BusMuxOut(ir_input),
-  .BusMuxIn(ir_output)
+  .clear(clear), .clock(clock), .enable(ir_enable), .BusMuxOut(ir_input), .BusMuxIn(ir_output)
 );
 
 // Instantiate the General-Purpose Registers (R0 to R15)
 register #(32, 32, 32'h0) gp_register0 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable0),
-    .BusMuxOut(gp_input0),
-    .BusMuxIn(gp_output0)
+    .clear(clear), .clock(clock), .enable(gp_enable0), .BusMuxOut(gp_input0), .BusMuxIn(gp_output0)
 );
 
 register #(32, 32, 32'h0) gp_register1 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable1),
-    .BusMuxOut(gp_input1),
-    .BusMuxIn(gp_output1)
+    .clear(clear), .clock(clock), .enable(gp_enable1), .BusMuxOut(gp_input1), .BusMuxIn(gp_output1)
 );
 
 register #(32, 32, 32'h0) gp_register2 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable2),
-    .BusMuxOut(gp_input2),
-    .BusMuxIn(gp_output2)
+    .clear(clear), .clock(clock), .enable(gp_enable2), .BusMuxOut(gp_input2), .BusMuxIn(gp_output2)
 );
 
 register #(32, 32, 32'h0) gp_register3 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable3),
-    .BusMuxOut(gp_input3),
-    .BusMuxIn(gp_output3)
+    .clear(clear), .clock(clock), .enable(gp_enable3), .BusMuxOut(gp_input3), .BusMuxIn(gp_output3)
 );
 
 register #(32, 32, 32'h0) gp_register4 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable4),
-    .BusMuxOut(gp_input4),
-    .BusMuxIn(gp_output4)
+    .clear(clear), .clock(clock), .enable(gp_enable4), .BusMuxOut(gp_input4), .BusMuxIn(gp_output4)
 );
 
 register #(32, 32, 32'h0) gp_register5 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable5),
-    .BusMuxOut(gp_input5),
-    .BusMuxIn(gp_output5)
+    .clear(clear), .clock(clock), .enable(gp_enable5), .BusMuxOut(gp_input5), .BusMuxIn(gp_output5)
 );
 
 register #(32, 32, 32'h0) gp_register6 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable6),
-    .BusMuxOut(gp_input6),
-    .BusMuxIn(gp_output6)
+    .clear(clear), .clock(clock), .enable(gp_enable5), .BusMuxOut(gp_input5), .BusMuxIn(gp_output5)
 );
 
 register #(32, 32, 32'h0) gp_register7 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable7),
-    .BusMuxOut(gp_input7),
-    .BusMuxIn(gp_output7)
+    .clear(clear), .clock(clock), .enable(gp_enable5), .BusMuxOut(gp_input5), .BusMuxIn(gp_output5)
 );
 
 register #(32, 32, 32'h0) gp_register8 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable8),
-    .BusMuxOut(gp_input8),
-    .BusMuxIn(gp_output8)
+    .clear(clear), .clock(clock), .enable(gp_enable5), .BusMuxOut(gp_input5), .BusMuxIn(gp_output5)
 );
 
 register #(32, 32, 32'h0) gp_register9 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable9),
-    .BusMuxOut(gp_input9),
-    .BusMuxIn(gp_output9)
+    .clear(clear), .clock(clock), .enable(gp_enable5), .BusMuxOut(gp_input5), .BusMuxIn(gp_output5)
 );
 
 register #(32, 32, 32'h0) gp_register10 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable10),
-    .BusMuxOut(gp_input10),
-    .BusMuxIn(gp_output10)
+    .clear(clear), .clock(clock), .enable(gp_enable5), .BusMuxOut(gp_input5), .BusMuxIn(gp_output5)
 );
 
 register #(32, 32, 32'h0) gp_register11 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable11),
-    .BusMuxOut(gp_input11),
-    .BusMuxIn(gp_output11)
+    .clear(clear), .clock(clock), .enable(gp_enable5), .BusMuxOut(gp_input5), .BusMuxIn(gp_output5)
 );
 
 register #(32, 32, 32'h0) gp_register12 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable12),
-    .BusMuxOut(gp_input12),
-    .BusMuxIn(gp_output12)
+    .clear(clear), .clock(clock), .enable(gp_enable5), .BusMuxOut(gp_input5), .BusMuxIn(gp_output5)
 );
 
 register #(32, 32, 32'h0) gp_register13 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable13),
-    .BusMuxOut(gp_input13),
-    .BusMuxIn(gp_output13)
+    .clear(clear), .clock(clock), .enable(gp_enable5), .BusMuxOut(gp_input5), .BusMuxIn(gp_output5)
 );
 
 register #(32, 32, 32'h0) gp_register14 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable14),
-    .BusMuxOut(gp_input14),
-    .BusMuxIn(gp_output14)
+    .clear(clear), .clock(clock), .enable(gp_enable5), .BusMuxOut(gp_input5), .BusMuxIn(gp_output5)
 );
-
 register #(32, 32, 32'h0) gp_register15 (
-    .clear(clear),
-    .clock(clock),
-    .enable(gp_enable15),
-    .BusMuxOut(gp_input15),
-    .BusMuxIn(gp_output15)
+    .clear(clear), .clock(clock), .enable(gp_enable5), .BusMuxOut(gp_input5), .BusMuxIn(gp_output5)
 );
 
+// Instantiate the Bus module
+Bus bus_instance (
+    .gp_output0(gp_output0),
+    .gp_output1(gp_output1),
+    .gp_output2(gp_output2),
+    .gp_output3(gp_output3),
+    .gp_output4(gp_output4),
+    .gp_output5(gp_output5),
+    .gp_output6(gp_output6),
+    .gp_output7(gp_output7),
+    .gp_output8(gp_output8),
+    .gp_output9(gp_output9),
+    .gp_output10(gp_output10),
+    .gp_output11(gp_output11),
+    .gp_output12(gp_output12),
+    .gp_output13(gp_output13),
+    .gp_output14(gp_output14),
+    .gp_output15(gp_output15),
+    .gp_register_select(gp_register_select), // This needs to be driven by some control logic within mini_src
+    .BusMuxOut(BusMuxOut_main) // Connect the output of the bus to wherever it's needed within mini_src
+);
     // ... instantiate other registers like HI, LO, SP, RA, etc.
-
-    // Additional logic for control signals, data inputs, etc.
 
 endmodule

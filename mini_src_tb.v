@@ -13,16 +13,18 @@ module mini_src_tb;
 	 integer i;
 
 
-    // Instantiate the mini_src
-    mini_src uut (
-        .clear(clear),
-        .clock(clock),
-        // ... other connections
-        // Connect the gp_output wires from the uut to the BusMuxOut wire in the testbench
-        .gp_output(gp_output),
-        .gp_register_select(gp_register_select),
-        .BusMuxOut(BusMuxOut)
-    );
+	// Instantiate the DataPath
+	DataPath uut (
+		 .clear(clear),
+		 .clock(clock),
+		 // ... other connections
+		 // Connect the gp_out wires from the uut to the BusMuxOut wire in the testbench
+		 .gp_out0(gp_out0), // You will need to declare and connect all gp_out wires
+		 // ...
+		 .gp_out15(gp_out15),
+		 .gp_register_select(gp_register_select),
+		 .BusMuxOut(BusMuxOut)
+	);
 
     // Generate a clock signal
     initial begin
