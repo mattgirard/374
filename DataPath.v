@@ -13,7 +13,39 @@ wire PC_enable;
 //ir input, output and enable
 wire [31:0] IR_out;
 wire [31:0] IR_in;
-wire IR_enable;
+wire IR_enable; //mar z y hi lo
+
+//MAR input, output and enable
+wire [31:0] MAR_out;
+wire [31:0] MAR_in;
+wire MAR_enable;
+
+//Z input, output and enable
+wire [31:0] Z_out;
+wire [31:0] Z_in;
+wire Z_enable;
+
+//Y input, output and enable
+wire [31:0] Y_out;
+wire [31:0] Y_in;
+wire Y_enable;
+
+//HI input, output and enable
+wire [31:0] HI_out;
+wire [31:0] HI_in;
+wire HI_enable;
+
+//LO input, output and enable
+wire [31:0] LO_out;
+wire [31:0] LO_in;
+wire LO_enable;
+
+//MDR input, output, enable, read and Mdatain
+wire [31:0] MDR_out;
+wire [31:0] MDR_in;
+wire [31:0] MDatain;
+wire MDR_enable;
+wire MDR_read;
 
 // GP inputs, outputs, and enable declarations
 wire [31:0] gp_out0, gp_out1, gp_out2, gp_out3,
@@ -33,7 +65,10 @@ wire gp_enable0, gp_enable1, gp_enable2, gp_enable3,
 	  
 wire [3:0] gp_register_select;
 
-
+//Instantiate the Memory Data Register (MDR)
+MDR MDR(.clk(clock), .clr(clear), .enable(MDR_enable),.read(MDR_read),
+	.BusMuxOut(MDR_in),.Mdatain(Mdatain),.Q(MDR_out)
+);
 
 // Instantiate the Program Counter (PC) register
 register #(32, 32, 32'h0) PC_register (
@@ -57,7 +92,7 @@ register #(64, 64, 64'h0) Z_register (
 
 
 // Instantiate the MAR Register
-register #(32, 32, 32h0) MAR_register (
+register #(32, 32, 32'h0) MAR_register (
   .clear(clear), .clock(clock), .enable(MAR_enable), .BusMuxOut(MAR_in), .BusMuxIn(MAR_out)
 );
 

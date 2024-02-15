@@ -1,5 +1,5 @@
 Analysis & Elaboration report for processor
-Wed Feb 07 22:35:15 2024
+Tue Feb 13 17:33:59 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -9,8 +9,10 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   1. Legal Notice
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
-  4. Analysis & Elaboration Settings
-  5. Analysis & Elaboration Messages
+  4. Parameter Settings for User Entity Instance: Top-level Entity: |alu_tb
+  5. Analysis & Elaboration Settings
+  6. Port Connectivity Checks: "alu:alu_inst"
+  7. Analysis & Elaboration Messages
 
 
 
@@ -36,10 +38,10 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Failed - Wed Feb 07 22:35:15 2024           ;
+; Analysis & Elaboration Status ; Successful - Tue Feb 13 17:33:59 2024       ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                 ; processor                                   ;
-; Top-level Entity Name         ; mini_src_tb                                 ;
+; Top-level Entity Name         ; alu_tb                                      ;
 ; Family                        ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
 ; Total registers               ; N/A until Partition Merge                   ;
@@ -67,13 +69,23 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
++------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |alu_tb ;
++----------------+-------+-----------------------------------------------+
+; Parameter Name ; Value ; Type                                          ;
++----------------+-------+-----------------------------------------------+
+; CLK_PERIOD     ; 10    ; Signed Integer                                ;
++----------------+-------+-----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +---------------------------------------------------------------------------------------------------------------------------+
 ; Analysis & Elaboration Settings                                                                                           ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CEBA4F17C8        ;                    ;
-; Top-level entity name                                                           ; mini_src_tb        ; processor          ;
+; Top-level entity name                                                           ; alu_tb             ; processor          ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -154,50 +166,61 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:alu_inst"                                                                       ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; C    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Feb 07 22:35:01 2024
+    Info: Processing started: Tue Feb 13 17:33:50 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off processor -c processor --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file tutorial_tb.v
-    Info (12023): Found entity 1: Tutorial_tb File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Tutorial_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file adder.v
     Info (12023): Found entity 1: adder File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file bus.v
     Info (12023): Found entity 1: Bus File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file datapath.v
-    Info (12023): Found entity 1: DataPath File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 1
+    Info (12023): Found entity 1: DataPath File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file register.v
     Info (12023): Found entity 1: register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file subtract.v
     Info (12023): Found entity 1: subtractor File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file mini_src.v
-    Info (12023): Found entity 1: mini_src File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/mini_src.v Line: 2
-Info (12021): Found 1 design units, including 1 entities, in source file mini_src_tb.v
-    Info (12023): Found entity 1: mini_src_tb File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/mini_src_tb.v Line: 3
-Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(15): created implicit net for "RAin" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 15
-Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(15): created implicit net for "RegisterAImmediate" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 15
-Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(16): created implicit net for "RBin" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 16
-Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(23): created implicit net for "A" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 23
-Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(24): created implicit net for "RZin" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 24
-Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(27): created implicit net for "RZout" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 27
-Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(27): created implicit net for "RAout" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 27
-Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(27): created implicit net for "RBout" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 27
-Warning (10236): Verilog HDL Implicit Net warning at mini_src.v(19): created implicit net for "pc_enable" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/mini_src.v Line: 19
-Warning (10236): Verilog HDL Implicit Net warning at mini_src.v(20): created implicit net for "pc_input" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/mini_src.v Line: 20
-Warning (10236): Verilog HDL Implicit Net warning at mini_src.v(28): created implicit net for "ir_enable" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/mini_src.v Line: 28
-Warning (10236): Verilog HDL Implicit Net warning at mini_src.v(29): created implicit net for "ir_input" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/mini_src.v Line: 29
-Warning (10236): Verilog HDL Implicit Net warning at mini_src_tb.v(22): created implicit net for "gp_output" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/mini_src_tb.v Line: 22
-Error (10773): Verilog HDL error at Bus.v(3): declaring module ports or function arguments with unpacked array types requires SystemVerilog extensions File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 3
-Error: Quartus Prime Analysis & Elaboration was unsuccessful. 1 error, 14 warnings
-    Error: Peak virtual memory: 4768 megabytes
-    Error: Processing ended: Wed Feb 07 22:35:15 2024
-    Error: Elapsed time: 00:00:14
-    Error: Total CPU time (on all processors): 00:00:13
+Warning (10229): Verilog HDL Expression warning at alu.v(36): truncated literal to match 4 bits File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 36
+Warning (10229): Verilog HDL Expression warning at alu.v(37): truncated literal to match 4 bits File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 37
+Warning (10229): Verilog HDL Expression warning at alu.v(38): truncated literal to match 4 bits File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 38
+Info (12021): Found 1 design units, including 1 entities, in source file alu.v
+    Info (12023): Found entity 1: alu File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file alu_tb.v
+    Info (12023): Found entity 1: alu_tb File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mdr.v
+    Info (12023): Found entity 1: MDR File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/MDR.v Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(70): created implicit net for "Mdatain" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 70
+Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(194): created implicit net for "BusMuxOut_main" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 194
+Info (12127): Elaborating entity "alu_tb" for the top level hierarchy
+Warning (10755): Verilog HDL warning at alu_tb.v(23): assignments to clk create a combinational loop File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v Line: 23
+Info (10648): Verilog HDL Display System Task info at alu_tb.v(32): Result of addition of 5 + 3:           0 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v Line: 32
+Info (10648): Verilog HDL Display System Task info at alu_tb.v(39): Result of subtraction 8 - 4:           0 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v Line: 39
+Info (10648): Verilog HDL Display System Task info at alu_tb.v(46): Result of logical AND 6 & 3:           0 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v Line: 46
+Info (12128): Elaborating entity "alu" for hierarchy "alu:alu_inst" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v Line: 19
+Warning (10272): Verilog HDL Case Statement warning at alu.v(36): case item expression covers a value already covered by a previous case item File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 36
+Warning (10272): Verilog HDL Case Statement warning at alu.v(37): case item expression covers a value already covered by a previous case item File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 37
+Warning (10272): Verilog HDL Case Statement warning at alu.v(38): case item expression covers a value already covered by a previous case item File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 38
+Info (12128): Elaborating entity "adder" for hierarchy "alu:alu_inst|adder:adder_inst" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 18
+Info (12128): Elaborating entity "subtractor" for hierarchy "alu:alu_inst|subtractor:subtractor_inst" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 24
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 10 warnings
+    Info: Peak virtual memory: 4769 megabytes
+    Info: Processing ended: Tue Feb 13 17:33:59 2024
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:05
 
 

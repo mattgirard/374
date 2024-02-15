@@ -29,21 +29,21 @@ initial begin
     B = 3;
     operation = 4'b0000;
     #10; // Wait for 10 time units
-    $display("Result of addition of 5 + 3: %d", C);
+    $display("Result of addition: %d", C);
 
     // Test case 2: Subtraction (0001)
     A = 8;
     B = 4;
     operation = 4'b0001;
     #10; // Wait for 10 time units
-    $display("Result of subtraction 8 - 4: %d", C);
+    $display("Result of subtraction: %d", C);
 
     // Test case 3: Logical AND (0010)
     A = 6;
     B = 3;
     operation = 4'b0010;
     #10; // Wait for 10 time units
-    $display("Result of logical AND 6 & 3: %d", C);
+    $display("Result of logical AND: %d", C);
 
     // Add more test cases for other operations as needed
 end
