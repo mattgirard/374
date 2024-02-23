@@ -10,18 +10,31 @@ wire [31:0] add_result;
 // Internal wire for the result of the subtractor module
 wire [31:0] subtract_result;
 
-// Instantiate the adder module for the ADD operation
+// Internal wire for the result of the multiplier module
+wire [63:0] multiply_result;
+
+
+// Instantiate the adder
 adder adder_inst (
     .A(A),
     .B(B),
     .Result(add_result)
 );
 
+//instantiate the subtractor
 subtractor subtractor_inst (
     .A(A),
     .B(B),
     .Result(subtract_result)
 );
+
+//instantiate booth multiplier
+multiplication multiply_inst (
+	.multiplicand(A),
+	.multiplier(B),
+	.product(multiply_result)
+);
+
 
 always @(*)
 begin
@@ -31,7 +44,7 @@ begin
         4'b00100: C = subtract_result;      // SUB operation
         4'b01010: C = A & B;      // AND operation
         4'b01011: C = A | B;      // OR operation
-		  4'b01111: C = A * B; // MUL operation
+		  4'b01111: C = multiply_result; // MUL operation
         4'b10000: C = A / B; // DIV operation
 		  4'b10001: C =~A + 1; // Negate operation
         4'b10010: C =    ~A; // NOT operation

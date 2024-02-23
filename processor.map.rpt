@@ -1,5 +1,5 @@
 Analysis & Elaboration report for processor
-Tue Feb 13 17:33:59 2024
+Tue Feb 20 14:04:57 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -11,8 +11,11 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   3. Parallel Compilation
   4. Parameter Settings for User Entity Instance: Top-level Entity: |alu_tb
   5. Analysis & Elaboration Settings
-  6. Port Connectivity Checks: "alu:alu_inst"
-  7. Analysis & Elaboration Messages
+  6. Port Connectivity Checks: "alu:alu_inst|multiplication:multiply_inst|subtractor:subtractor_inst"
+  7. Port Connectivity Checks: "alu:alu_inst|multiplication:multiply_inst|adder:adder_inst"
+  8. Port Connectivity Checks: "alu:alu_inst|multiplication:multiply_inst"
+  9. Port Connectivity Checks: "alu:alu_inst"
+ 10. Analysis & Elaboration Messages
 
 
 
@@ -38,7 +41,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Tue Feb 13 17:33:59 2024       ;
+; Analysis & Elaboration Status ; Successful - Tue Feb 20 14:04:56 2024       ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                 ; processor                                   ;
 ; Top-level Entity Name         ; alu_tb                                      ;
@@ -166,13 +169,45 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "alu:alu_inst"                                                                       ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; C    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:alu_inst|multiplication:multiply_inst|subtractor:subtractor_inst"                 ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; A      ; Input  ; Info     ; Stuck at GND                                                                        ;
+; B      ; Input  ; Info     ; Stuck at GND                                                                        ;
+; Result ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:alu_inst|multiplication:multiply_inst|adder:adder_inst"                           ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; A      ; Input  ; Info     ; Stuck at GND                                                                        ;
+; B      ; Input  ; Info     ; Stuck at GND                                                                        ;
+; Result ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:alu_inst|multiplication:multiply_inst"                                                     ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port            ; Type   ; Severity ; Details                                                                             ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------+
+; product[63..32] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:alu_inst"                                                                                                                                                                ;
++----------+--------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                                                                                                                  ;
++----------+--------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; C        ; Output ; Warning  ; Output or bidir port (32 bits) is smaller than the port expression (64 bits) it drives.  The 32 most-significant bit(s) in the port expression will be connected to GND. ;
+; C[31..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                      ;
++----------+--------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +---------------------------------+
@@ -181,7 +216,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Feb 13 17:33:50 2024
+    Info: Processing started: Tue Feb 20 14:04:45 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off processor -c processor --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -195,32 +230,43 @@ Info (12021): Found 1 design units, including 1 entities, in source file registe
     Info (12023): Found entity 1: register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file subtract.v
     Info (12023): Found entity 1: subtractor File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v Line: 1
-Warning (10229): Verilog HDL Expression warning at alu.v(36): truncated literal to match 4 bits File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 36
-Warning (10229): Verilog HDL Expression warning at alu.v(37): truncated literal to match 4 bits File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 37
-Warning (10229): Verilog HDL Expression warning at alu.v(38): truncated literal to match 4 bits File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 38
+Warning (10229): Verilog HDL Expression warning at alu.v(48): truncated literal to match 4 bits File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 48
+Warning (10229): Verilog HDL Expression warning at alu.v(49): truncated literal to match 4 bits File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 49
+Warning (10229): Verilog HDL Expression warning at alu.v(50): truncated literal to match 4 bits File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 50
 Info (12021): Found 1 design units, including 1 entities, in source file alu.v
     Info (12023): Found entity 1: alu File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file alu_tb.v
     Info (12023): Found entity 1: alu_tb File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file mdr.v
     Info (12023): Found entity 1: MDR File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/MDR.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file multiplication.v
+    Info (12023): Found entity 1: multiplication File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file multiplication1.v
+    Info (12023): Found entity 1: BoothMultipilcation File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication1.v Line: 1
 Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(70): created implicit net for "Mdatain" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 70
 Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(194): created implicit net for "BusMuxOut_main" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 194
+Warning (10236): Verilog HDL Implicit Net warning at multiplication.v(16): created implicit net for "C" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v Line: 16
 Info (12127): Elaborating entity "alu_tb" for the top level hierarchy
 Warning (10755): Verilog HDL warning at alu_tb.v(23): assignments to clk create a combinational loop File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v Line: 23
-Info (10648): Verilog HDL Display System Task info at alu_tb.v(32): Result of addition of 5 + 3:           0 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v Line: 32
-Info (10648): Verilog HDL Display System Task info at alu_tb.v(39): Result of subtraction 8 - 4:           0 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v Line: 39
-Info (10648): Verilog HDL Display System Task info at alu_tb.v(46): Result of logical AND 6 & 3:           0 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v Line: 46
+Info (10648): Verilog HDL Display System Task info at alu_tb.v(32): Result of addition of 5 + 3:                      0 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v Line: 32
+Info (10648): Verilog HDL Display System Task info at alu_tb.v(39): Result of subtraction 8 - 4:                      0 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v Line: 39
+Info (10648): Verilog HDL Display System Task info at alu_tb.v(46): Result of multiply 6 * 3:                      0 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v Line: 46
 Info (12128): Elaborating entity "alu" for hierarchy "alu:alu_inst" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v Line: 19
-Warning (10272): Verilog HDL Case Statement warning at alu.v(36): case item expression covers a value already covered by a previous case item File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 36
-Warning (10272): Verilog HDL Case Statement warning at alu.v(37): case item expression covers a value already covered by a previous case item File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 37
-Warning (10272): Verilog HDL Case Statement warning at alu.v(38): case item expression covers a value already covered by a previous case item File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 38
-Info (12128): Elaborating entity "adder" for hierarchy "alu:alu_inst|adder:adder_inst" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 18
-Info (12128): Elaborating entity "subtractor" for hierarchy "alu:alu_inst|subtractor:subtractor_inst" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 24
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 10 warnings
-    Info: Peak virtual memory: 4769 megabytes
-    Info: Processing ended: Tue Feb 13 17:33:59 2024
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:05
+Warning (10230): Verilog HDL assignment warning at alu.v(47): truncated value with size 64 to match size of target (32) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 47
+Info (12128): Elaborating entity "adder" for hierarchy "alu:alu_inst|adder:adder_inst" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 22
+Info (12128): Elaborating entity "subtractor" for hierarchy "alu:alu_inst|subtractor:subtractor_inst" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 29
+Info (12128): Elaborating entity "multiplication" for hierarchy "alu:alu_inst|multiplication:multiply_inst" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 36
+Info (10264): Verilog HDL Case Statement information at multiplication.v(36): all case item expressions in this case statement are onehot File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v Line: 36
+Info (10648): Verilog HDL Display System Task info at multiplication.v(49): Product:                      0 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v Line: 49
+Warning (10855): Verilog HDL warning at multiplication.v(27): initial value for variable A should be constant File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v Line: 27
+Warning (10855): Verilog HDL warning at multiplication.v(27): initial value for variable P should be constant File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v Line: 27
+Warning (10855): Verilog HDL warning at multiplication.v(27): initial value for variable product should be constant File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v Line: 27
+Warning (10034): Output port "product" at multiplication.v(5) has no driver File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v Line: 5
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 14 warnings
+    Info: Peak virtual memory: 4773 megabytes
+    Info: Processing ended: Tue Feb 20 14:04:57 2024
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:10
 
 

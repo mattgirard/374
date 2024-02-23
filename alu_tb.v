@@ -8,7 +8,7 @@ reg [31:0] A, B;
 reg [3:0] operation;
 
 // Outputs
-wire [31:0] C;
+wire [63:0] C;
 
 // Instantiate the ALU module
 alu alu_inst (
@@ -27,23 +27,23 @@ initial begin
     // Test case 1: Addition (0000)
     A = 5;
     B = 3;
-    operation = 4'b0000;
+    operation = 4'b00011;
     #10; // Wait for 10 time units
     $display("Result of addition of 5 + 3: %d", C);
 
     // Test case 2: Subtraction (0001)
     A = 8;
     B = 4;
-    operation = 4'b0001;
+    operation = 4'b00100;
     #10; // Wait for 10 time units
     $display("Result of subtraction 8 - 4: %d", C);
 
     // Test case 3: Logical AND (0010)
     A = 6;
     B = 3;
-    operation = 4'b0010;
+    operation = 4'b01111;
     #10; // Wait for 10 time units
-    $display("Result of logical AND 6 & 3: %d", C);
+    $display("Result of multiply 6 * 3: %d", C);
 
     // Add more test cases for other operations as needed
 end

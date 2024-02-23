@@ -6,8 +6,10 @@ vlib rtl_work
 vmap work rtl_work
 
 vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v}
+vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v}
 vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v}
 vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v}
+vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v}
 
 vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v}
 
