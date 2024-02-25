@@ -1,7 +1,7 @@
 module subtractor (
     input [31:0] A,
     input [31:0] B,
-    output [31:0] Result
+    output [63:0] Result
 );
 
 // Intermediate wires
