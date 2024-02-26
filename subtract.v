@@ -1,7 +1,7 @@
 module subtractor (
     input [31:0] A,
     input [31:0] B,
-    output [63:0] Result
+    output [31:0] Result
 );
 
 // Intermediate wires
@@ -17,6 +17,8 @@ adder adder_instance (
     .B(twos_complement_B),
     .Result(addition_result)
 );
+
+
 
 // The result of the addition is the result of the subtraction
 assign Result = addition_result;

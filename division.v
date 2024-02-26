@@ -11,6 +11,7 @@ module division (
     integer i;
     
     initial begin
+		$display("divisor %d", divisor);
         quotient = 0; // Initialize quotient
         remainder = 0; // Initialize remainder
         temp_dividend = dividend; // Copy of dividend for manipulation
