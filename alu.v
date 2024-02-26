@@ -1,7 +1,7 @@
 module alu(
     input [31:0] A, B,
     input [3:0] operation, // Control signal for selecting the operation
-    output reg [31:0] C
+    output reg [63:0] C
 );
 
 // Internal wire for the result of the adder module
@@ -35,6 +35,12 @@ multiplication multiply_inst (
 	.product(multiply_result)
 );
 
+division division_inst(
+	.dividend(A),
+	.divisor(B),
+	.quotient(divison_result),
+	.remainder(division_remainder)
+	);
 
 always @(*)
 begin
