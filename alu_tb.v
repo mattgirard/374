@@ -8,7 +8,18 @@ reg [31:0] A, B;
 reg [3:0] operation;
 
 // Outputs
-wire [63:0] C;
+wire [31:0] C;
+
+
+//just for testing the multiplication
+reg [31:0] D;
+reg [31:0] E;
+wire [63:0] P;
+multiplication  mul (
+    .multiplicand(D),
+    .multiplier(E),
+    .product(P)
+);
 
 // Instantiate the ALU module
 alu alu_inst (
@@ -39,11 +50,11 @@ initial begin
     $display("Result of subtraction 8 - 4: %d", C);
 
     // Test case 3: Logical AND (0010)
-    A = 6;
-    B = 3;
+    D = 6;
+    E = 3;
     operation = 4'b01111;
     #10; // Wait for 10 time units
-    $display("Result of multiply 6 * 3: %d", C);
+    $display("Result of multiply 6 * 3: %d", P);
 
     // Add more test cases for other operations as needed
 end
