@@ -1,6 +1,11 @@
 // Top-level module for the Simple RISC Computer (Mini SRC)
 module DataPath(
-    input clear, clock,
+    input PCout, Zlowout, MDRout, R2out, R3out, //control signals for outputting data from registers
+    input MARin, Zin, PCin, MDRin, IRin, Yin, //control signals for inputting data to registers
+    input IncPC, Read, AND, R1in, R2in, R3in,
+    input Clock,
+    input [31:0] Mdatain
+    input clear,
 	 output [31:0] BusMuxOut
     // ... other inputs like control signals, data inputs, etc.
 );
@@ -13,7 +18,7 @@ wire PC_enable;
 //ir input, output and enable
 wire [31:0] IR_out;
 wire [31:0] IR_in;
-wire IR_enable; //mar z y hi lo
+wire IR_enable;
 
 //MAR input, output and enable
 wire [31:0] MAR_out;
@@ -23,7 +28,8 @@ wire MAR_enable;
 //Z input, output and enable
 wire [31:0] Z_out;
 wire [31:0] Z_in;
-wire Z_enable;
+wire Zhi_enable;
+wire Zlo_enable;
 
 //Y input, output and enable
 wire [31:0] Y_out;
@@ -174,25 +180,60 @@ register #(32, 32, 32'h0) gp_register15 (
 
 // Instantiate the Bus module
 Bus bus_instance (
-    .gp_out0(gp_out0),
-    .gp_out1(gp_out1),
-    .gp_out2(gp_out2),
-    .gp_out3(gp_out3),
-    .gp_out4(gp_out4),
-    .gp_out5(gp_out5),
-    .gp_out6(gp_out6),
-    .gp_out7(gp_out7),
-    .gp_out8(gp_out8),
-    .gp_out9(gp_out9),
-    .gp_out10(gp_out10),
-    .gp_out11(gp_out11),
-    .gp_out12(gp_out12),
-    .gp_out13(gp_out13),
-    .gp_out14(gp_out14),
-    .gp_out15(gp_out15),
-    .gp_register_select(gp_register_select), // This needs to be driven by some control logic within mini_src
-    .BusMuxOut(BusMuxOut_main) // Connect the output of the bus to wherever it's needed within mini_src
+    .gp_output0(gp_out0),
+    .gp_output1(gp_out1),
+    .gp_output2(gp_out2),
+    .gp_output3(gp_out3),
+    .gp_output4(gp_out4),
+    .gp_output5(gp_out5),
+    .gp_output6(gp_out6),
+    .gp_output7(gp_out7),
+    .gp_output8(gp_out8),
+    .gp_output9(gp_out9),
+    .gp_output10(gp_out10),
+    .gp_output11(gp_out11),
+    .gp_output12(gp_out12),
+    .gp_output13(gp_out13),
+    .gp_output14(gp_out14),
+    .gp_output15(gp_out15),
+	 .hi_output(HI_out),
+	 .lo_output(LO_out),
+	 .zhi_output(Z_out[32:63]),
+	 .zlo_output(Z_out[0:31]),
+	 .pc_output(PC_out),
+	 .mdr_output(MDR_out),
+	 .inport_output(??),
+	 .c_output(??),
+	 
+	 .gp_enable0(gp_enable0),
+	 .gp_enable1(gp_enable1),
+	 .gp_enable2(gp_enable2),
+	 .gp_enable3(gp_enable3),
+	 .gp_enable4(gp_enable4),
+	 .gp_enable5(gp_enable5),
+	 .gp_enable6(gp_enable6),
+	 .gp_enable7(gp_enable7),
+	 .gp_enable8(gp_enable8),
+	 .gp_enable9(gp_enable9),
+	 .gp_enable10(gp_enable10),
+	 .gp_enable11(gp_enable11),
+	 .gp_enable12(gp_enable12),
+	 .gp_enable13(gp_enable13),
+	 .gp_enable14(gp_enable14),
+	 .gp_enable15(gp_enable15),
+	 .hi_enable(HI_enable),
+	 .lo_enable(LO_enable),
+	 .zhi_enable(Zhi_enable),
+	 .zlo_enable(Zlo_enable),
+	 .pc_enable(PC_enable),
+	 .mdr_enable(MDR_enable),
+	 .inport_enable(??),
+	 .c_enable(??),
+	 
+	 .BusMuxOut(BusMuxout)
 );
-    // ... instantiate other registers like HI, LO, SP, RA, etc.
 
+alu alu_instance(
+	
+);
 endmodule

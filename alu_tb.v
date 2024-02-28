@@ -7,6 +7,7 @@ parameter CLK_PERIOD = 10; // Clock period in ns
 reg [31:0] A, B;
 reg [4:0] operation; // Adjusted size for operation code
 
+
 // Outputs 
 wire [31:0] Z_lo;
 wire [31:0] Z_hi;
@@ -29,6 +30,7 @@ initial begin
     // Test case 1: Addition (00011)
     A = 5;
     B = 3;
+
     operation = 5'b00011;
     #10;
     $display("Result of addition 5 + 3: %d", Z_lo);
@@ -112,6 +114,7 @@ initial begin
     operation = 5'b01000;
     #10;
     $display("Result of Rotate Right on 1: %d", Z_lo);
+
 
 end
 

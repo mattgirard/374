@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/simulation/modelsim
 vadder
-Z1 !s110 1708455946
+Z1 !s110 1708962870
 !i10b 1
 !s100 fo[bUJ_L?U2c=;Hof7TYj3
 IQR31oPR?b0eIIcKoV4cW:2
@@ -23,13 +23,13 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1708455945.000000
+Z4 !s108 1708962870.000000
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v|
 !i113 1
-Z4 o-vlog01compat -work work
-Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374}
-Z6 tCvgOpt 0
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374}
+Z7 tCvgOpt 0
 valu
 R1
 !i10b 1
@@ -37,7 +37,7 @@ R1
 IM9R7PDhcHf?=_cY:<N=jY2
 R2
 R0
-Z7 w1708455881
+w1708455881
 8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
 FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
 L0 1
@@ -45,21 +45,21 @@ R3
 r1
 !s85 0
 31
-Z8 !s108 1708455946.000000
+R4
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v|
 !i113 1
-R4
 R5
 R6
+R7
 valu_tb
 R1
 !i10b 1
-!s100 S644z6=mKa_^U5O]b`@mf1
-I4bKWO5FjQJ`^a55?h4Skd3
+!s100 TH^QcCb@PEThezFQY4j510
+IBX^oYmj=zZHl=IAl9Y3j22
 R2
 R0
-R7
+w1708962830
 8C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v
 FC:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v
 L0 1
@@ -67,13 +67,13 @@ R3
 r1
 !s85 0
 31
-R8
+R4
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v|
 !i113 1
-R4
 R5
 R6
+R7
 vmultiplication
 R1
 !i10b 1
@@ -89,13 +89,13 @@ R3
 r1
 !s85 0
 31
-R8
+R4
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v|
 !i113 1
-R4
 R5
 R6
+R7
 vsubtractor
 R1
 !i10b 1
@@ -111,10 +111,10 @@ R3
 r1
 !s85 0
 31
-R8
+R4
 !s107 C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374|C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v|
 !i113 1
-R4
 R5
 R6
+R7

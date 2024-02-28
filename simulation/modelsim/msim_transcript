@@ -12,27 +12,27 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:05:45 on Feb 20,2024
+# Start time: 10:54:30 on Feb 26,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 14:05:46 on Feb 20,2024, Elapsed time: 0:00:01
+# End time: 10:54:30 on Feb 26,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:05:46 on Feb 20,2024
+# Start time: 10:54:30 on Feb 26,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v 
 # -- Compiling module subtractor
 # 
 # Top level modules:
 # 	subtractor
-# End time: 14:05:46 on Feb 20,2024, Elapsed time: 0:00:00
+# End time: 10:54:30 on Feb 26,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:05:46 on Feb 20,2024
+# Start time: 10:54:30 on Feb 26,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v 
 # -- Compiling module alu
 # ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(43): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
@@ -51,56 +51,58 @@
 # 
 # Top level modules:
 # 	alu
-# End time: 14:05:46 on Feb 20,2024, Elapsed time: 0:00:00
+# End time: 10:54:30 on Feb 26,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 13
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:05:46 on Feb 20,2024
+# Start time: 10:54:30 on Feb 26,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v 
 # -- Compiling module alu_tb
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(30): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(37): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(44): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(41): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(48): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(55): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # 
 # Top level modules:
 # 	alu_tb
-# End time: 14:05:46 on Feb 20,2024, Elapsed time: 0:00:00
+# End time: 10:54:30 on Feb 26,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 3
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:05:46 on Feb 20,2024
+# Start time: 10:54:30 on Feb 26,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v 
 # -- Compiling module multiplication
 # 
 # Top level modules:
 # 	multiplication
-# End time: 14:05:46 on Feb 20,2024, Elapsed time: 0:00:00
+# End time: 10:54:30 on Feb 26,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:05:46 on Feb 20,2024
+# Start time: 10:54:30 on Feb 26,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v 
 # -- Compiling module alu_tb
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(30): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(37): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(44): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(41): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(48): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(55): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # 
 # Top level modules:
 # 	alu_tb
-# End time: 14:05:46 on Feb 20,2024, Elapsed time: 0:00:00
+# End time: 10:54:30 on Feb 26,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 3
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  alu_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb 
-# Start time: 14:05:47 on Feb 20,2024
+# Start time: 10:54:31 on Feb 26,2024
 # Loading work.alu_tb
-# Loading work.alu
+# Loading work.multiplication
 # Loading work.adder
 # Loading work.subtractor
-# Loading work.multiplication
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(14): [PCDPC] - Port size (32) does not match connection size (64) for port 'C'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_inst File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
+# Loading work.alu
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v(13): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/mul/adder_inst File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v(20): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/mul/subtractor_inst File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v
 # ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v(13): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v(4).
 #    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_inst/multiply_inst/adder_inst File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v
 # ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v(20): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v(4).
@@ -113,8 +115,9 @@
 # .main_pane.objects.interior.cs.body.tree
 # run 500 ns
 # Product:                    0
-# Result of addition of 5 + 3:                    Z
-# Result of subtraction 8 - 4:                    Z
-# Result of multiply 6 * 3:                    Z
-# End time: 14:14:41 on Feb 20,2024, Elapsed time: 0:08:54
-# Errors: 0, Warnings: 3
+# Product:                    0
+# Result of addition of 5 + 3:          8
+# Result of subtraction 8 - 4:          4
+# Result of multiply 6 * 3:                    0
+# End time: 10:59:42 on Feb 26,2024, Elapsed time: 0:05:11
+# Errors: 0, Warnings: 4
