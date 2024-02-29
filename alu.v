@@ -2,7 +2,7 @@ module alu(
     input [31:0] A, B,
     input [3:0] operation, // Control signal for selecting the operation
     output reg [31:0] Z_lo,
-	  output reg [31:0] Z_hi
+	 output reg [31:0] Z_hi
 );
 
 // Internal wire for the result of the adder module

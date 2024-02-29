@@ -15,41 +15,41 @@ module Bus (
     input [31:0] gp_output13,
     input [31:0] gp_output14,
     input [31:0] gp_output15,
-	 input [31:0] hi_output;
-	 input [31:0] lo_output;
-	 input [31:0] zhi_output;
-	 input [31:0] zlo_output;
-	 input [31:0] pc_output;
-	 input [31:0] mdr_output;
-	 input [31:0] inport_output;
-	 input [31:0] c_output;
+	 input [31:0] hi_output,
+	 input [31:0] lo_output,
+	 input [31:0] zhi_output,
+	 input [31:0] zlo_output,
+	 input [31:0] pc_output,
+	 input [31:0] mdr_output,
+	 input [31:0] inport_output,
+	 input [31:0] c_output,
 	 
-	 input gp_enable0;
-	 input gp_enable1;
-	 input gp_enable2;
-	 input gp_enable3;
-	 input gp_enable4;
-	 input gp_enable5;
-	 input gp_enable6;
-	 input gp_enable7;
-	 input gp_enable8;
-	 input gp_enable9;
-	 input gp_enable10
-	 input gp_enable11;
-	 input gp_enable12;
-	 input gp_enable13;
-	 input gp_enable14;
-	 input gp_enable15;
-	 input hi_enable;
-	 input lo_enable;
-	 input zhi_enable;
-	 input zlo_enable;
-	 input pc_enable;
-	 input mdr_enable;
-	 input inport_enable;
-	 input c_enable;
+	 input gp_enable0,
+	 input gp_enable1,
+	 input gp_enable2,
+	 input gp_enable3,
+	 input gp_enable4,
+	 input gp_enable5,
+	 input gp_enable6,
+	 input gp_enable7,
+	 input gp_enable8,
+	 input gp_enable9,
+	 input gp_enable10,
+	 input gp_enable11,
+	 input gp_enable12,
+	 input gp_enable13,
+	 input gp_enable14,
+	 input gp_enable15,
+	 input hi_enable,
+	 input lo_enable,
+	 input zhi_enable,
+	 input zlo_enable,
+	 input pc_enable,
+	 input mdr_enable,
+	 input inport_enable,
+	 input c_enable,
 	 
-    output wire [31:0] BusMuxOut;
+    output wire [31:0] BusMuxOut
 );
 
 reg [31:0] q;
