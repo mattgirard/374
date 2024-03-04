@@ -13,7 +13,7 @@ module MDR (
 wire [31:0] MDMuxOut;
 
 // Instantiate your generic register module here
-register #(32, 32'h0) MDR_register (
+register32 MDR_register (
     .clear(clr),
     .clock(clk),
     .enable(enable),

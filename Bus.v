@@ -65,7 +65,7 @@ wire [31:0] enable_bus = {
     pc_enable, mdr_enable, inport_enable, c_enable,
     7'b0 // Pad the remaining bits with zeros if there are less than 32 enables
 };
-encoder encoder(
+encoder5 encoder(
 	.in(enable_bus),
 	.out(encode_output)
 );

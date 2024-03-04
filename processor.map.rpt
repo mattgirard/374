@@ -1,5 +1,5 @@
 Analysis & Elaboration report for processor
-Thu Feb 29 11:04:34 2024
+Mon Mar 04 11:52:31 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -9,9 +9,62 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   1. Legal Notice
   2. Analysis & Elaboration Summary
   3. Parallel Compilation
-  4. Analysis & Elaboration Settings
-  5. Analysis & Elaboration Messages
-  6. Analysis & Elaboration Suppressed Messages
+  4. Parameter Settings for User Entity Instance: MDR:MDR|register32:MDR_register
+  5. Parameter Settings for User Entity Instance: PC_Register:PC_register
+  6. Parameter Settings for User Entity Instance: register32:IR_register
+  7. Parameter Settings for User Entity Instance: register32:Y_register
+  8. Parameter Settings for User Entity Instance: register64:Z_register
+  9. Parameter Settings for User Entity Instance: register32:MAR_register
+ 10. Parameter Settings for User Entity Instance: register32:HI_register
+ 11. Parameter Settings for User Entity Instance: register32:LO_register
+ 12. Parameter Settings for User Entity Instance: register32:gp_register0
+ 13. Parameter Settings for User Entity Instance: register32:gp_register1
+ 14. Parameter Settings for User Entity Instance: register32:gp_register2
+ 15. Parameter Settings for User Entity Instance: register32:gp_register3
+ 16. Parameter Settings for User Entity Instance: register32:gp_register4
+ 17. Parameter Settings for User Entity Instance: register32:gp_register5
+ 18. Parameter Settings for User Entity Instance: register32:gp_register6
+ 19. Parameter Settings for User Entity Instance: register32:gp_register7
+ 20. Parameter Settings for User Entity Instance: register32:gp_register8
+ 21. Parameter Settings for User Entity Instance: register32:gp_register9
+ 22. Parameter Settings for User Entity Instance: register32:gp_register10
+ 23. Parameter Settings for User Entity Instance: register32:gp_register11
+ 24. Parameter Settings for User Entity Instance: register32:gp_register12
+ 25. Parameter Settings for User Entity Instance: register32:gp_register13
+ 26. Parameter Settings for User Entity Instance: register32:gp_register14
+ 27. Parameter Settings for User Entity Instance: register32:gp_register15
+ 28. Analysis & Elaboration Settings
+ 29. Port Connectivity Checks: "alu:alu_instance|division:division_inst"
+ 30. Port Connectivity Checks: "alu:alu_instance"
+ 31. Port Connectivity Checks: "Bus:bus_instance|encoder5:encoder"
+ 32. Port Connectivity Checks: "Bus:bus_instance"
+ 33. Port Connectivity Checks: "register32:gp_register15"
+ 34. Port Connectivity Checks: "register32:gp_register14"
+ 35. Port Connectivity Checks: "register32:gp_register13"
+ 36. Port Connectivity Checks: "register32:gp_register12"
+ 37. Port Connectivity Checks: "register32:gp_register11"
+ 38. Port Connectivity Checks: "register32:gp_register10"
+ 39. Port Connectivity Checks: "register32:gp_register9"
+ 40. Port Connectivity Checks: "register32:gp_register8"
+ 41. Port Connectivity Checks: "register32:gp_register7"
+ 42. Port Connectivity Checks: "register32:gp_register6"
+ 43. Port Connectivity Checks: "register32:gp_register5"
+ 44. Port Connectivity Checks: "register32:gp_register4"
+ 45. Port Connectivity Checks: "register32:gp_register3"
+ 46. Port Connectivity Checks: "register32:gp_register2"
+ 47. Port Connectivity Checks: "register32:gp_register1"
+ 48. Port Connectivity Checks: "register32:gp_register0"
+ 49. Port Connectivity Checks: "register32:LO_register"
+ 50. Port Connectivity Checks: "register32:HI_register"
+ 51. Port Connectivity Checks: "register32:MAR_register"
+ 52. Port Connectivity Checks: "register64:Z_register"
+ 53. Port Connectivity Checks: "register32:Y_register"
+ 54. Port Connectivity Checks: "register32:IR_register"
+ 55. Port Connectivity Checks: "PC_Register:PC_register"
+ 56. Port Connectivity Checks: "MDR:MDR|register32:MDR_register"
+ 57. Port Connectivity Checks: "MDR:MDR"
+ 58. Analysis & Elaboration Messages
+ 59. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -37,7 +90,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Failed - Thu Feb 29 11:04:34 2024           ;
+; Analysis & Elaboration Status ; Successful - Mon Mar 04 11:52:31 2024       ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                 ; processor                                   ;
 ; Top-level Entity Name         ; DataPath                                    ;
@@ -66,6 +119,293 @@ refer to the applicable agreement for further details.
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 +----------------------------+-------------+
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: MDR:MDR|register32:MDR_register ;
++----------------+---------------------------------+---------------------------+
+; Parameter Name ; Value                           ; Type                      ;
++----------------+---------------------------------+---------------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer            ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer            ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary           ;
++----------------+---------------------------------+---------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: PC_Register:PC_register ;
++----------------+----------------------------------+------------------+
+; Parameter Name ; Value                            ; Type             ;
++----------------+----------------------------------+------------------+
+; DATA_WIDTH     ; 32                               ; Signed Integer   ;
+; INIT           ; 00000000000000000000000000000000 ; Unsigned Binary  ;
++----------------+----------------------------------+------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:IR_register ;
++----------------+---------------------------------+------------------+
+; Parameter Name ; Value                           ; Type             ;
++----------------+---------------------------------+------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer   ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer   ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary  ;
++----------------+---------------------------------+------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:Y_register ;
++----------------+---------------------------------+-----------------+
+; Parameter Name ; Value                           ; Type            ;
++----------------+---------------------------------+-----------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer  ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer  ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary ;
++----------------+---------------------------------+-----------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register64:Z_register                                  ;
++----------------+------------------------------------------------------------------+-----------------+
+; Parameter Name ; Value                                                            ; Type            ;
++----------------+------------------------------------------------------------------+-----------------+
+; DATA_WIDTH_IN  ; 64                                                               ; Signed Integer  ;
+; DATA_WIDTH_OUT ; 64                                                               ; Signed Integer  ;
+; INIT           ; 0000000000000000000000000000000000000000000000000000000000000000 ; Unsigned Binary ;
++----------------+------------------------------------------------------------------+-----------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:MAR_register ;
++----------------+---------------------------------+-------------------+
+; Parameter Name ; Value                           ; Type              ;
++----------------+---------------------------------+-------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer    ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer    ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary   ;
++----------------+---------------------------------+-------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:HI_register ;
++----------------+---------------------------------+------------------+
+; Parameter Name ; Value                           ; Type             ;
++----------------+---------------------------------+------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer   ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer   ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary  ;
++----------------+---------------------------------+------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:LO_register ;
++----------------+---------------------------------+------------------+
+; Parameter Name ; Value                           ; Type             ;
++----------------+---------------------------------+------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer   ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer   ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary  ;
++----------------+---------------------------------+------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register0 ;
++----------------+---------------------------------+-------------------+
+; Parameter Name ; Value                           ; Type              ;
++----------------+---------------------------------+-------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer    ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer    ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary   ;
++----------------+---------------------------------+-------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register1 ;
++----------------+---------------------------------+-------------------+
+; Parameter Name ; Value                           ; Type              ;
++----------------+---------------------------------+-------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer    ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer    ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary   ;
++----------------+---------------------------------+-------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register2 ;
++----------------+---------------------------------+-------------------+
+; Parameter Name ; Value                           ; Type              ;
++----------------+---------------------------------+-------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer    ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer    ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary   ;
++----------------+---------------------------------+-------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register3 ;
++----------------+---------------------------------+-------------------+
+; Parameter Name ; Value                           ; Type              ;
++----------------+---------------------------------+-------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer    ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer    ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary   ;
++----------------+---------------------------------+-------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register4 ;
++----------------+---------------------------------+-------------------+
+; Parameter Name ; Value                           ; Type              ;
++----------------+---------------------------------+-------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer    ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer    ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary   ;
++----------------+---------------------------------+-------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register5 ;
++----------------+---------------------------------+-------------------+
+; Parameter Name ; Value                           ; Type              ;
++----------------+---------------------------------+-------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer    ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer    ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary   ;
++----------------+---------------------------------+-------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register6 ;
++----------------+---------------------------------+-------------------+
+; Parameter Name ; Value                           ; Type              ;
++----------------+---------------------------------+-------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer    ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer    ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary   ;
++----------------+---------------------------------+-------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register7 ;
++----------------+---------------------------------+-------------------+
+; Parameter Name ; Value                           ; Type              ;
++----------------+---------------------------------+-------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer    ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer    ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary   ;
++----------------+---------------------------------+-------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register8 ;
++----------------+---------------------------------+-------------------+
+; Parameter Name ; Value                           ; Type              ;
++----------------+---------------------------------+-------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer    ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer    ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary   ;
++----------------+---------------------------------+-------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register9 ;
++----------------+---------------------------------+-------------------+
+; Parameter Name ; Value                           ; Type              ;
++----------------+---------------------------------+-------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer    ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer    ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary   ;
++----------------+---------------------------------+-------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register10 ;
++----------------+---------------------------------+--------------------+
+; Parameter Name ; Value                           ; Type               ;
++----------------+---------------------------------+--------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer     ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer     ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary    ;
++----------------+---------------------------------+--------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register11 ;
++----------------+---------------------------------+--------------------+
+; Parameter Name ; Value                           ; Type               ;
++----------------+---------------------------------+--------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer     ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer     ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary    ;
++----------------+---------------------------------+--------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register12 ;
++----------------+---------------------------------+--------------------+
+; Parameter Name ; Value                           ; Type               ;
++----------------+---------------------------------+--------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer     ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer     ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary    ;
++----------------+---------------------------------+--------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register13 ;
++----------------+---------------------------------+--------------------+
+; Parameter Name ; Value                           ; Type               ;
++----------------+---------------------------------+--------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer     ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer     ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary    ;
++----------------+---------------------------------+--------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register14 ;
++----------------+---------------------------------+--------------------+
+; Parameter Name ; Value                           ; Type               ;
++----------------+---------------------------------+--------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer     ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer     ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary    ;
++----------------+---------------------------------+--------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register32:gp_register15 ;
++----------------+---------------------------------+--------------------+
+; Parameter Name ; Value                           ; Type               ;
++----------------+---------------------------------+--------------------+
+; DATA_WIDTH_IN  ; 31                              ; Signed Integer     ;
+; DATA_WIDTH_OUT ; 31                              ; Signed Integer     ;
+; INIT           ; 0000000000000000000000000000000 ; Unsigned Binary    ;
++----------------+---------------------------------+--------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -155,13 +495,325 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:alu_instance|division:division_inst"                                                 ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                             ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; quotient  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; remainder ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alu:alu_instance"                                                                                                                          ;
++------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                     ;
++------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
+; A    ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "A[31..1]" will be connected to GND. ;
+; B    ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "B[31..1]" will be connected to GND. ;
++------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Bus:bus_instance|encoder5:encoder"                                                                                         ;
++----------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                                                                ;
++----------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
+; in[6..0] ; Input  ; Info     ; Stuck at GND                                                                                                           ;
+; in[31]   ; Input  ; Info     ; Stuck at GND                                                                                                           ;
+; out      ; Output ; Warning  ; Output or bidir port (5 bits) is wider than the port expression (1 bits) it drives; bit(s) "out[4..1]" have no fanouts ;
++----------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Bus:bus_instance"                                                                                                                                                                           ;
++---------------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                                                                                                                            ;
++---------------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; gp_output0    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output0[31..1]" will be connected to GND.                               ;
+; gp_output1    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output1[31..1]" will be connected to GND.                               ;
+; gp_output2    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output2[31..1]" will be connected to GND.                               ;
+; gp_output3    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output3[31..1]" will be connected to GND.                               ;
+; gp_output4    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output4[31..1]" will be connected to GND.                               ;
+; gp_output5    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output5[31..1]" will be connected to GND.                               ;
+; gp_output6    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output6[31..1]" will be connected to GND.                               ;
+; gp_output7    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output7[31..1]" will be connected to GND.                               ;
+; gp_output8    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output8[31..1]" will be connected to GND.                               ;
+; gp_output9    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output9[31..1]" will be connected to GND.                               ;
+; gp_output10   ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output10[31..1]" will be connected to GND.                              ;
+; gp_output11   ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output11[31..1]" will be connected to GND.                              ;
+; gp_output12   ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output12[31..1]" will be connected to GND.                              ;
+; gp_output13   ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output13[31..1]" will be connected to GND.                              ;
+; gp_output14   ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output14[31..1]" will be connected to GND.                              ;
+; gp_output15   ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "gp_output15[31..1]" will be connected to GND.                              ;
+; pc_output     ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "pc_output[31..1]" will be connected to GND.                                ;
+; inport_output ; Input  ; Warning  ; Input port expression (33 bits) is wider than the input port (32 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; c_output      ; Input  ; Warning  ; Input port expression (33 bits) is wider than the input port (32 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; inport_enable ; Input  ; Warning  ; Input port expression (33 bits) is wider than the input port (1 bits) it drives.  The 32 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; c_enable      ; Input  ; Warning  ; Input port expression (33 bits) is wider than the input port (1 bits) it drives.  The 32 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; BusMuxOut     ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxOut[31..1]" have no fanouts                                                     ;
++---------------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register15"                                                                                                                                ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register14"                                                                                                                                ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register13"                                                                                                                                ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register12"                                                                                                                                ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register11"                                                                                                                                ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register10"                                                                                                                                ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register9"                                                                                                                                 ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register8"                                                                                                                                 ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register7"                                                                                                                                 ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register6"                                                                                                                                 ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register5"                                                                                                                                 ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register4"                                                                                                                                 ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register3"                                                                                                                                 ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register2"                                                                                                                                 ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register1"                                                                                                                                 ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:gp_register0"                                                                                                                                 ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[30..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:LO_register"                                                                                                                                                      ;
++-----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                                                 ;
++-----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND.                     ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is smaller than the port expression (32 bits) it drives.  The 1 most-significant bit(s) in the port expression will be connected to GND. ;
++-----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:HI_register"                                                                                                                                                      ;
++-----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                                                 ;
++-----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND.                     ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is smaller than the port expression (32 bits) it drives.  The 1 most-significant bit(s) in the port expression will be connected to GND. ;
++-----------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:MAR_register"                                                                                                                                                           ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port            ; Type   ; Severity ; Details                                                                                                                                                                 ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut       ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND.                     ;
+; BusMuxIn        ; Output ; Warning  ; Output or bidir port (31 bits) is smaller than the port expression (32 bits) it drives.  The 1 most-significant bit(s) in the port expression will be connected to GND. ;
+; BusMuxIn[30..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                     ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register64:Z_register"                                                                                                                                  ;
++-----------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                                                                                                             ;
++-----------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (64 bits) it drives.  Extra input bit(s) "BusMuxOut[63..1]" will be connected to GND. ;
++-----------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:Y_register"                                                                                                                                                             ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port            ; Type   ; Severity ; Details                                                                                                                                                                 ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut       ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND.                     ;
+; BusMuxIn        ; Output ; Warning  ; Output or bidir port (31 bits) is smaller than the port expression (32 bits) it drives.  The 1 most-significant bit(s) in the port expression will be connected to GND. ;
+; BusMuxIn[30..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                     ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register32:IR_register"                                                                                                                                                            ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port            ; Type   ; Severity ; Details                                                                                                                                                                 ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut       ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (31 bits) it drives.  Extra input bit(s) "BusMuxOut[30..1]" will be connected to GND.                     ;
+; BusMuxIn        ; Output ; Warning  ; Output or bidir port (31 bits) is smaller than the port expression (32 bits) it drives.  The 1 most-significant bit(s) in the port expression will be connected to GND. ;
+; BusMuxIn[30..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                     ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "PC_Register:PC_register"                                                                                                                                 ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                             ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "BusMuxOut[31..1]" will be connected to GND. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "BusMuxIn[31..1]" have no fanouts                       ;
++-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "MDR:MDR|register32:MDR_register"                                                                                                                                                        ;
++-----------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                                                            ;
++-----------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input  ; Warning  ; Input port expression (32 bits) is wider than the input port (31 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; BusMuxIn  ; Output ; Warning  ; Output or bidir port (31 bits) is smaller than the port expression (32 bits) it drives.  The 1 most-significant bit(s) in the port expression will be connected to GND.            ;
++-----------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "MDR:MDR"                                                                                                                                                ;
++-----------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                                                                                                             ;
++-----------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; BusMuxOut ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "BusMuxOut[31..1]" will be connected to GND. ;
++-----------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
 +---------------------------------+
 ; Analysis & Elaboration Messages ;
 +---------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Feb 29 11:04:20 2024
+    Info: Processing started: Mon Mar 04 11:52:19 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off processor -c processor --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -179,8 +831,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file bus.v
     Info (12023): Found entity 1: Bus File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file datapath.v
     Info (12023): Found entity 1: DataPath File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 2
-Info (12021): Found 1 design units, including 1 entities, in source file register.v
-    Info (12023): Found entity 1: register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file subtract.v
     Info (12023): Found entity 1: subtractor File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v Line: 1
 Warning (10229): Verilog HDL Expression warning at alu.v(60): truncated literal to match 4 bits File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 60
@@ -202,6 +852,10 @@ Info (12021): Found 1 design units, including 1 entities, in source file datapat
     Info (12023): Found entity 1: datapath_tb File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/datapath_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file pc_register.v
     Info (12023): Found entity 1: PC_Register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/PC_Register.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file register64.v
+    Info (12023): Found entity 1: register64 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register64.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file register32.v
+    Info (12023): Found entity 1: register32 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v Line: 1
 Warning (10236): Verilog HDL Implicit Net warning at Bus.v(70): created implicit net for "encode_output" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 70
 Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(62): created implicit net for "clock" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 62
 Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(62): created implicit net for "clear" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 62
@@ -240,16 +894,371 @@ Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(196): created im
 Warning (10236): Verilog HDL Implicit Net warning at DataPath.v(213): created implicit net for "Zhiout" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 213
 Info (12127): Elaborating entity "DataPath" for the top level hierarchy
 Info (12128): Elaborating entity "MDR" for hierarchy "MDR:MDR" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 64
-Info (12128): Elaborating entity "register" for hierarchy "MDR:MDR|register:MDR_register" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/MDR.v Line: 22
-Error (10198): Verilog HDL error at register.v(21): part-select direction is opposite from prefix index direction File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register.v Line: 21
-Error (10784): HDL error at register.v(10): see declaration for object "q" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register.v Line: 10
-Error (12152): Can't elaborate user hierarchy "MDR:MDR|register:MDR_register" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/MDR.v Line: 22
+Info (12128): Elaborating entity "register32" for hierarchy "MDR:MDR|register32:MDR_register" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/MDR.v Line: 22
+Info (12128): Elaborating entity "PC_Register" for hierarchy "PC_Register:PC_register" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 69
+Info (12128): Elaborating entity "register64" for hierarchy "register64:Z_register" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 84
+Info (12128): Elaborating entity "Bus" for hierarchy "Bus:bus_instance" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 221
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(77): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 77
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(78): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 78
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(79): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 79
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(80): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 80
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(81): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 81
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(82): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 82
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(83): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 83
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(84): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 84
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(85): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 85
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(86): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 86
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(87): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 87
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(88): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 88
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(89): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 89
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(90): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 90
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(93): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 93
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(94): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 94
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(95): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 95
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(96): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 96
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(97): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 97
+Warning (10199): Verilog HDL Case Statement warning at Bus.v(98): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 98
+Warning (10272): Verilog HDL Case Statement warning at Bus.v(91): case item expression covers a value already covered by a previous case item File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 91
+Warning (10272): Verilog HDL Case Statement warning at Bus.v(92): case item expression covers a value already covered by a previous case item File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 92
+Info (12128): Elaborating entity "encoder5" for hierarchy "Bus:bus_instance|encoder5:encoder" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v Line: 71
+Warning (10762): Verilog HDL Case Statement warning at encoder.v(7): can't check case statement for completeness because the case expression has too many possible states File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/encoder.v Line: 7
+Info (12128): Elaborating entity "alu" for hierarchy "alu:alu_instance" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 229
+Warning (10240): Verilog HDL Always Construct warning at alu.v(52): inferring latch(es) for variable "Z_hi", which holds its previous value in one or more paths through the always construct File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[0]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[1]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[2]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[3]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[4]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[5]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[6]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[7]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[8]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[9]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[10]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[11]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[12]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[13]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[14]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[15]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[16]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[17]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[18]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[19]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[20]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[21]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[22]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[23]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[24]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[25]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[26]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[27]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[28]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[29]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[30]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (10041): Inferred latch for "Z_hi[31]" at alu.v(52) File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 52
+Info (12128): Elaborating entity "adder" for hierarchy "alu:alu_instance|adder:adder_inst" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 26
+Info (12128): Elaborating entity "subtractor" for hierarchy "alu:alu_instance|subtractor:subtractor_inst" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 33
+Info (12128): Elaborating entity "multiplication" for hierarchy "alu:alu_instance|multiplication:multiply_inst" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 40
+Warning (10199): Verilog HDL Case Statement warning at multiplication.v(70): case item expression never matches the case expression File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v Line: 70
+Info (10264): Verilog HDL Case Statement information at multiplication.v(69): all case item expressions in this case statement are onehot File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v Line: 69
+Warning (12125): Using design file division.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: division File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/division.v Line: 46
+Info (12128): Elaborating entity "division" for hierarchy "alu:alu_instance|division:division_inst" File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v Line: 47
+Warning (10240): Verilog HDL Always Construct warning at division.v(57): inferring latch(es) for variable "i", which holds its previous value in one or more paths through the always construct File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/division.v Line: 57
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable6" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 130
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable5" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 126
+    Warning (12110): Net "gp_enable6" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 130
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable4" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 122
+    Warning (12110): Net "gp_enable5" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 126
+    Warning (12110): Net "gp_enable6" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 130
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable4" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 122
+    Warning (12110): Net "gp_enable5" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 126
+    Warning (12110): Net "gp_enable6" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 130
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable4" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 122
+    Warning (12110): Net "gp_enable5" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 126
+    Warning (12110): Net "gp_enable6" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 130
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable4" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 122
+    Warning (12110): Net "gp_enable5" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 126
+    Warning (12110): Net "gp_enable6" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 130
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable0" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 106
+    Warning (12110): Net "gp_enable4" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 122
+    Warning (12110): Net "gp_enable5" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 126
+    Warning (12110): Net "gp_enable6" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 130
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable0" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 106
+    Warning (12110): Net "gp_enable4" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 122
+    Warning (12110): Net "gp_enable5" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 126
+    Warning (12110): Net "gp_enable6" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 130
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+    Warning (12110): Net "LO_out[31]" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 42
+    Warning (12110): Net "LO_enable" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 43
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable0" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 106
+    Warning (12110): Net "gp_enable4" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 122
+    Warning (12110): Net "gp_enable5" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 126
+    Warning (12110): Net "gp_enable6" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 130
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+    Warning (12110): Net "HI_out[31]" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 38
+    Warning (12110): Net "HI_enable" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 39
+    Warning (12110): Net "LO_out[31]" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 42
+    Warning (12110): Net "LO_enable" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 43
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable0" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 106
+    Warning (12110): Net "gp_enable4" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 122
+    Warning (12110): Net "gp_enable5" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 126
+    Warning (12110): Net "gp_enable6" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 130
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+    Warning (12110): Net "HI_out[31]" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 38
+    Warning (12110): Net "HI_enable" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 39
+    Warning (12110): Net "LO_out[31]" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 42
+    Warning (12110): Net "LO_enable" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 43
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable0" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 106
+    Warning (12110): Net "gp_enable4" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 122
+    Warning (12110): Net "gp_enable5" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 126
+    Warning (12110): Net "gp_enable6" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 130
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+    Warning (12110): Net "HI_out[31]" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 38
+    Warning (12110): Net "HI_enable" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 39
+    Warning (12110): Net "LO_out[31]" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 42
+    Warning (12110): Net "LO_enable" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 43
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable0" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 106
+    Warning (12110): Net "gp_enable4" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 122
+    Warning (12110): Net "gp_enable5" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 126
+    Warning (12110): Net "gp_enable6" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 130
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+    Warning (12110): Net "HI_out[31]" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 38
+    Warning (12110): Net "HI_enable" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 39
+    Warning (12110): Net "LO_out[31]" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 42
+    Warning (12110): Net "LO_enable" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 43
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable0" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 106
+    Warning (12110): Net "gp_enable4" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 122
+    Warning (12110): Net "gp_enable5" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 126
+    Warning (12110): Net "gp_enable6" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 130
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+    Warning (12110): Net "HI_out[31]" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 38
+    Warning (12110): Net "HI_enable" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 39
+    Warning (12110): Net "LO_out[31]" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 42
+    Warning (12110): Net "LO_enable" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 43
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "gp_enable0" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 106
+    Warning (12110): Net "gp_enable4" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 122
+    Warning (12110): Net "gp_enable5" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 126
+    Warning (12110): Net "gp_enable6" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 130
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+    Warning (12110): Net "HI_out[31]" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 38
+    Warning (12110): Net "HI_enable" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 39
+    Warning (12110): Net "LO_out[31]" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 42
+    Warning (12110): Net "LO_enable" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 43
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "clock" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 62
+    Warning (12110): Net "clear" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 62
+    Warning (12110): Net "gp_enable0" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 106
+    Warning (12110): Net "gp_enable4" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 122
+    Warning (12110): Net "gp_enable5" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 126
+    Warning (12110): Net "gp_enable6" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 130
+    Warning (12110): Net "gp_enable7" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 134
+    Warning (12110): Net "gp_enable8" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 138
+    Warning (12110): Net "gp_enable9" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 142
+    Warning (12110): Net "gp_enable10" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 146
+    Warning (12110): Net "gp_enable11" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 150
+    Warning (12110): Net "gp_enable12" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 154
+    Warning (12110): Net "gp_enable13" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 158
+    Warning (12110): Net "gp_enable14" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 162
+    Warning (12110): Net "gp_enable15" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 165
+    Warning (12110): Net "HI_out[31]" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 38
+    Warning (12110): Net "HI_enable" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 39
+    Warning (12110): Net "LO_out[31]" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 42
+    Warning (12110): Net "LO_enable" is missing source, defaulting to GND File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v Line: 43
+Warning (12241): 28 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (144001): Generated suppressed messages file C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/processor.map.smsg
-Error: Quartus Prime Analysis & Elaboration was unsuccessful. 3 errors, 48 warnings
-    Error: Peak virtual memory: 4770 megabytes
-    Error: Processing ended: Thu Feb 29 11:04:34 2024
-    Error: Elapsed time: 00:00:14
-    Error: Total CPU time (on all processors): 00:00:11
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 363 warnings
+    Info: Peak virtual memory: 4780 megabytes
+    Info: Processing ended: Mon Mar 04 11:52:31 2024
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:10
 
 
 +--------------------------------------------+

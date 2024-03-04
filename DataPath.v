@@ -64,104 +64,104 @@ MDR MDR(.clk(clock), .clr(clear), .enable(MDR_in),.read(Read),
 );
 
 // Instantiate the Program Counter (PC) register
-PC_Register #(32, 32'h00000000) PC_register (
+PC_Register PC_register (
   .clear(clear),.clock(clock),.enable(PC_in), .inc(IncPC), .BusMuxOut(BusMuxout),.BusMuxIn(PC_out)
 );
 
 // Instantiate the Instruction Register (IR)
-register #(32, 32, 32'h00000000) IR_register (
+register32 IR_register (
   .clear(clear), .clock(clock), .enable(IR_in), .BusMuxOut(BusMuxout), .BusMuxIn(IR_out)
 );
 
 // Instantiate the Y Register
-register #(32, 32, 32'h00000000) Y_register (
+register32 Y_register (
   .clear(clear), .clock(clock), .enable(Y_in), .BusMuxOut(BusMuxout), .BusMuxIn(Y_out)
 );
 
 // Instantiate the Z Register
-register #(64, 64, 64'h0) Z_register (
+register64 Z_register (
   .clear(clear), .clock(clock), .enable(Z_in), .BusMuxOut(BusMuxout), .BusMuxIn(Z_out)
 );
 
 
 // Instantiate the MAR Register
-register #(32, 32, 32'h00000000) MAR_register (
+register32 MAR_register (
   .clear(clear), .clock(clock), .enable(MAR_in), .BusMuxOut(BusMuxout), .BusMuxIn(MAR_out)
 );
 
 
 // Instantiate the HI Register
-register #(32, 32, 32'h00000000) HI_register (
+register32 HI_register (
   .clear(clear), .clock(clock), .enable(HI_enable), .BusMuxOut(BusMuxout), .BusMuxIn(HI_out)
 );
 
 
 // Instantiate the LO Register
-register #(32, 32, 32'h00000000) LO_register (
+register32 LO_register (
   .clear(clear), .clock(clock), .enable(LO_enable), .BusMuxOut(BusMuxout), .BusMuxIn(LO_out)
 );
 
 // Instantiate the General-Purpose Registers (R0 to R15)
-register #(32, 32, 32'h00000000) gp_register0 (
+register32 gp_register0 (
     .clear(clear), .clock(clock), .enable(gp_enable0), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out0)
 );
 
-register #(32, 32, 32'h00000000) gp_register1 (
+register32 gp_register1 (
     .clear(clear), .clock(clock), .enable(R1_in), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out1)
 );
 
-register #(32, 32, 32'h00000000) gp_register2 (
+register32 gp_register2 (
     .clear(clear), .clock(clock), .enable(R2_in), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out2)
 );
 
-register #(32, 32, 32'h00000000) gp_register3 (
+register32 gp_register3 (
     .clear(clear), .clock(clock), .enable(R3_in), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out3)
 );
 
-register #(32, 32, 32'h00000000) gp_register4 (
+register32 gp_register4 (
     .clear(clear), .clock(clock), .enable(gp_enable4), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out4)
 );
 
-register #(32, 32, 32'h00000000) gp_register5 (
+register32 gp_register5 (
     .clear(clear), .clock(clock), .enable(gp_enable5), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out5)
 );
 
-register #(32, 32, 32'h00000000) gp_register6 (
+register32 gp_register6 (
     .clear(clear), .clock(clock), .enable(gp_enable6), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out6)
 );
 
-register #(32, 32, 32'h00000000) gp_register7 (
+register32 gp_register7 (
     .clear(clear), .clock(clock), .enable(gp_enable7), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out7)
 );
 
-register #(32, 32, 32'h00000000) gp_register8 (
+register32 gp_register8 (
     .clear(clear), .clock(clock), .enable(gp_enable8), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out8)
 );
 
-register #(32, 32, 32'h00000000) gp_register9 (
+register32 gp_register9 (
     .clear(clear), .clock(clock), .enable(gp_enable9), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out9)
 );
 
-register #(32, 32, 32'h00000000) gp_register10 (
+register32 gp_register10 (
     .clear(clear), .clock(clock), .enable(gp_enable10), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out10)
 );
 
-register #(32, 32, 32'h00000000) gp_register11 (
+register32 gp_register11 (
     .clear(clear), .clock(clock), .enable(gp_enable11), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out11)
 );
 
-register #(32, 32, 32'h00000000) gp_register12 (
+register32 gp_register12 (
     .clear(clear), .clock(clock), .enable(gp_enable12), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out12)
 );
 
-register #(32, 32, 32'h00000000) gp_register13 (
+register32 gp_register13 (
     .clear(clear), .clock(clock), .enable(gp_enable13), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out13)
 );
 
-register #(32, 32, 32'h00000000) gp_register14 (
+register32 gp_register14 (
     .clear(clear), .clock(clock), .enable(gp_enable14), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out14)
 );
-register #(32, 32, 32'h00000000) gp_register15 (
+register32 gp_register15 (
     .clear(clear), .clock(clock), .enable(gp_enable15), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out15)
 );
 

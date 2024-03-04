@@ -12,101 +12,336 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:54:30 on Feb 26,2024
+# Start time: 12:10:43 on Mar 04,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 10:54:30 on Feb 26,2024, Elapsed time: 0:00:00
+# End time: 12:10:43 on Mar 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:43 on Mar 04,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v 
+# -- Compiling module Bus
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(75): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(76): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(77): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(78): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(79): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(80): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(81): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(82): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(83): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(84): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(85): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(86): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(87): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(88): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(89): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(90): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(91): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(93): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(94): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(95): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(96): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(97): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(98): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	Bus
+# End time: 12:10:43 on Mar 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 24
+# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:43 on Mar 04,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v 
+# -- Compiling module DataPath
+# 
+# Top level modules:
+# 	DataPath
+# End time: 12:10:43 on Mar 04,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:54:30 on Feb 26,2024
+# Start time: 12:10:43 on Mar 04,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v 
 # -- Compiling module subtractor
 # 
 # Top level modules:
 # 	subtractor
-# End time: 10:54:30 on Feb 26,2024, Elapsed time: 0:00:00
+# End time: 12:10:43 on Mar 04,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:54:30 on Feb 26,2024
+# Start time: 12:10:43 on Mar 04,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v 
 # -- Compiling module alu
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(43): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(44): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(45): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(46): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(47): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(48): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(50): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(51): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(52): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(53): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(54): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(55): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(56): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(57): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(60): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(61): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(62): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(63): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(64): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(65): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(66): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(67): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # 
 # Top level modules:
 # 	alu
-# End time: 10:54:30 on Feb 26,2024, Elapsed time: 0:00:00
+# End time: 12:10:43 on Mar 04,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 13
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/MDR.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:54:30 on Feb 26,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v 
-# -- Compiling module alu_tb
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(41): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(48): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(55): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# Start time: 12:10:43 on Mar 04,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/MDR.v 
+# -- Compiling module MDR
 # 
 # Top level modules:
-# 	alu_tb
-# End time: 10:54:30 on Feb 26,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 3
+# 	MDR
+# End time: 12:10:43 on Mar 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:54:30 on Feb 26,2024
+# Start time: 12:10:44 on Mar 04,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v 
 # -- Compiling module multiplication
 # 
 # Top level modules:
 # 	multiplication
-# End time: 10:54:30 on Feb 26,2024, Elapsed time: 0:00:00
+# End time: 12:10:44 on Mar 04,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/encoder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:54:30 on Feb 26,2024
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v 
-# -- Compiling module alu_tb
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(41): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(48): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu_tb.v(55): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# Start time: 12:10:44 on Mar 04,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/encoder.v 
+# -- Compiling module encoder5
 # 
 # Top level modules:
-# 	alu_tb
-# End time: 10:54:30 on Feb 26,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 3
+# 	encoder5
+# End time: 12:10:44 on Mar 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/PC_Register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:44 on Mar 04,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/PC_Register.v 
+# -- Compiling module PC_Register
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  alu_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb 
-# Start time: 10:54:31 on Feb 26,2024
-# Loading work.alu_tb
-# Loading work.multiplication
+# Top level modules:
+# 	PC_Register
+# End time: 12:10:44 on Mar 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register64.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:44 on Mar 04,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register64.v 
+# -- Compiling module register64
+# 
+# Top level modules:
+# 	register64
+# End time: 12:10:44 on Mar 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:44 on Mar 04,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v 
+# -- Compiling module register32
+# 
+# Top level modules:
+# 	register32
+# End time: 12:10:44 on Mar 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/division.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:44 on Mar 04,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/division.v 
+# -- Compiling module division
+# 
+# Top level modules:
+# 	division
+# End time: 12:10:44 on Mar 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/datapath_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:44 on Mar 04,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/datapath_tb.v 
+# -- Compiling module datapath_tb
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/datapath_tb.v(102): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 12:10:44 on Mar 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  datapath_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" datapath_tb 
+# Start time: 12:10:44 on Mar 04,2024
+# Loading work.datapath_tb
+# Loading work.DataPath
+# Loading work.MDR
+# Loading work.register32
+# Loading work.PC_Register
+# Loading work.register64
+# Loading work.Bus
+# Loading work.encoder5
+# Loading work.alu
 # Loading work.adder
 # Loading work.subtractor
-# Loading work.alu
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v(13): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/mul/adder_inst File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v(20): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/mul/subtractor_inst File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v(13): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_inst/multiply_inst/adder_inst File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v
-# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v(20): [PCDPC] - Port size (32) does not match connection size (1) for port 'Result'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/alu_inst/multiply_inst/subtractor_inst File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v
+# Loading work.multiplication
+# Loading work.division
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(62): [PCDPC] - Port size (32) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/MDR.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/MDR File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/MDR.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/MDR.v(16): [PCDPC] - Port size (31) does not match connection size (32) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/MDR/MDR_register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/MDR.v(16): [PCDPC] - Port size (31) does not match connection size (32) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/MDR/MDR_register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(67): [PCDPC] - Port size (32) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/PC_Register.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/PC_register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/PC_Register.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(67): [PCDPC] - Port size (32) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/PC_Register.v(10).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/PC_register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/PC_Register.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(72): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/IR_register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(72): [PCDPC] - Port size (31) does not match connection size (32) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/IR_register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(77): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/Y_register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(77): [PCDPC] - Port size (31) does not match connection size (32) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/Y_register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(82): [PCDPC] - Port size (64) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register64.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/Z_register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register64.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(88): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/MAR_register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(88): [PCDPC] - Port size (31) does not match connection size (32) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/MAR_register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(94): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/HI_register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(94): [PCDPC] - Port size (31) does not match connection size (32) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/HI_register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(100): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/LO_register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(100): [PCDPC] - Port size (31) does not match connection size (32) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/LO_register File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(105): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register0 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(105): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register0 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(109): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register1 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(109): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register1 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(113): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register2 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(113): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register2 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(117): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register3 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(117): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register3 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(121): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register4 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(121): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register4 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(125): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register5 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(125): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register5 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(129): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register6 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(129): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register6 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(133): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register7 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(133): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register7 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(137): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register8 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(137): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register8 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(141): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register9 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(141): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register9 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(145): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register10 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(145): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register10 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(149): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register11 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(149): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register11 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(153): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register12 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(153): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register12 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(157): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register13 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(157): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register13 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(161): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register14 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(161): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register14 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(164): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register15 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(164): [PCDPC] - Port size (31) does not match connection size (1) for port 'BusMuxIn'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/gp_register15 File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output0'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output1'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output2'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output3'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output4'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output5'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output6'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output7'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output8'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(10).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output9'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output10'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output11'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output12'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output13'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output14'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'gp_output15'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'pc_output'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (33) for port 'inport_output'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (33) for port 'c_output'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (1) does not match connection size (33) for port 'inport_enable'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(49).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (1) does not match connection size (33) for port 'c_enable'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(50).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(169): [PCDPC] - Port size (32) does not match connection size (1) for port 'BusMuxOut'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(52).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(68): [PCDPC] - Port size (5) does not match connection size (1) for port 'out'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/encoder.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/bus_instance/encoder File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/encoder.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(223): [PCDPC] - Port size (32) does not match connection size (1) for port 'A'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/alu_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(223): [PCDPC] - Port size (32) does not match connection size (1) for port 'B'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/alu_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
 # 
 # add wave *
 # view structure
@@ -114,10 +349,6 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run 500 ns
-# Product:                    0
-# Product:                    0
-# Result of addition of 5 + 3:          8
-# Result of subtraction 8 - 4:          4
-# Result of multiply 6 * 3:                    0
-# End time: 10:59:42 on Feb 26,2024, Elapsed time: 0:05:11
-# Errors: 0, Warnings: 4
+# Error: Division by zero.
+# End time: 12:11:49 on Mar 04,2024, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 73

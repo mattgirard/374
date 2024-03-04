@@ -16,10 +16,9 @@ module datapath_tb;
 	reg [3:0] Present_state = Default;
 	
 	
-Datapath datapath(
+DataPath datapath(
 PCout, Zlowout, MDRout, R2out, R3out, MARin, Zin, PCin, MDRin, IRin, Yin, IncPC, Read, opcode, R1in,
 R2in, R3in, Clock, Mdatain
-
 );
 
 // add test logic here
