@@ -10,12 +10,12 @@ module DataPath(
 );
 //bus wires
 wire [31:0] BusMuxOut;
-wire [32:0] inport_enable, c_enable, inport_output, c_output;
+wire [31:0] inport_output, c_output;
+wire inport_enable, c_enable;
 
 //pc input, output and enable
-wire [31:0] PC_output;
+wire [31:0] PC_out;
 wire [31:0] PC_input;
-wire PCin;
 
 //ir input, output and enable
 wire [31:0] IR_out;
@@ -26,7 +26,8 @@ wire [31:0] MAR_out;
 wire MAR_enable;
 
 //Z input, output and enable
-wire [63:0] Z_out;
+wire [31:0] zlo_out;
+wire [31:0] zhi_out;
 wire Zhi_enable;
 wire Zlo_enable;
 
@@ -60,133 +61,136 @@ wire gpin0, gpin1, gpin2, gpin3,
 
 //Instantiate the Memory Data Register (MDR)
 MDR MDR(.clk(clock), .clr(clear), .enable(MDR_in),.read(Read),
-	.BusMuxOut(BusMuxout),.Mdatain(Mdatain),.Q(MDR_out)
+	.BusMuxOut(BusMuxOut),.Mdatain(Mdatain),.Q(MDR_out)
 );
 
 // Instantiate the Program Counter (PC) register
 PC_Register PC_register (
-  .clear(clear),.clock(clock),.enable(PC_in), .inc(IncPC), .BusMuxOut(BusMuxout),.BusMuxIn(PC_out)
+  .clear(clear),.clock(clock),.enable(PC_in), .inc(IncPC), .BusMuxOut(BusMuxOut),.BusMuxIn(PC_out)
 );
 
 // Instantiate the Instruction Register (IR)
 register32 IR_register (
-  .clear(clear), .clock(clock), .enable(IR_in), .BusMuxOut(BusMuxout), .BusMuxIn(IR_out)
+  .clear(clear), .clock(clock), .enable(IR_in), .BusMuxOut(BusMuxOut), .BusMuxIn(IR_out)
 );
 
 // Instantiate the Y Register
 register32 Y_register (
-  .clear(clear), .clock(clock), .enable(Y_in), .BusMuxOut(BusMuxout), .BusMuxIn(Y_out)
+  .clear(clear), .clock(clock), .enable(Y_in), .BusMuxOut(BusMuxOut), .BusMuxIn(Y_out)
 );
 
 // Instantiate the Z Register
-register64 Z_register (
-  .clear(clear), .clock(clock), .enable(Z_in), .BusMuxOut(BusMuxout), .BusMuxIn(Z_out)
+register32 Zlo_register (
+  .clear(clear), .clock(clock), .enable(Z_in), .BusMuxOut(BusMuxOut), .BusMuxIn(zlo_out)
+);
+register32 Zhi_register (
+  .clear(clear), .clock(clock), .enable(Z_in), .BusMuxOut(BusMuxOut), .BusMuxIn(zhi_out)
 );
 
 
 // Instantiate the MAR Register
 register32 MAR_register (
-  .clear(clear), .clock(clock), .enable(MAR_in), .BusMuxOut(BusMuxout), .BusMuxIn(MAR_out)
+  .clear(clear), .clock(clock), .enable(MAR_in), .BusMuxOut(BusMuxOut), .BusMuxIn(MAR_out)
 );
 
 
 // Instantiate the HI Register
 register32 HI_register (
-  .clear(clear), .clock(clock), .enable(HI_enable), .BusMuxOut(BusMuxout), .BusMuxIn(HI_out)
+  .clear(clear), .clock(clock), .enable(HI_enable), .BusMuxOut(BusMuxOut), .BusMuxIn(HI_out)
 );
 
 
 // Instantiate the LO Register
 register32 LO_register (
-  .clear(clear), .clock(clock), .enable(LO_enable), .BusMuxOut(BusMuxout), .BusMuxIn(LO_out)
+  .clear(clear), .clock(clock), .enable(LO_enable), .BusMuxOut(BusMuxOut), .BusMuxIn(LO_out)
 );
 
 // Instantiate the General-Purpose Registers (R0 to R15)
 register32 gp_register0 (
-    .clear(clear), .clock(clock), .enable(gp_enable0), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out0)
+    .clear(clear), .clock(clock), .enable(gp_enable0), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output0)
 );
 
 register32 gp_register1 (
-    .clear(clear), .clock(clock), .enable(R1_in), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out1)
+    .clear(clear), .clock(clock), .enable(R1_in), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output1)
 );
 
 register32 gp_register2 (
-    .clear(clear), .clock(clock), .enable(R2_in), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out2)
+    .clear(clear), .clock(clock), .enable(R2_in), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output2)
 );
 
 register32 gp_register3 (
-    .clear(clear), .clock(clock), .enable(R3_in), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out3)
+    .clear(clear), .clock(clock), .enable(R3_in), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output3)
 );
 
 register32 gp_register4 (
-    .clear(clear), .clock(clock), .enable(gp_enable4), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out4)
+    .clear(clear), .clock(clock), .enable(gp_enable4), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output4)
 );
 
 register32 gp_register5 (
-    .clear(clear), .clock(clock), .enable(gp_enable5), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out5)
+    .clear(clear), .clock(clock), .enable(gp_enable5), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output5)
 );
 
 register32 gp_register6 (
-    .clear(clear), .clock(clock), .enable(gp_enable6), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out6)
+    .clear(clear), .clock(clock), .enable(gp_enable6), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output6)
 );
 
 register32 gp_register7 (
-    .clear(clear), .clock(clock), .enable(gp_enable7), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out7)
+    .clear(clear), .clock(clock), .enable(gp_enable7), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output7)
 );
 
 register32 gp_register8 (
-    .clear(clear), .clock(clock), .enable(gp_enable8), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out8)
+    .clear(clear), .clock(clock), .enable(gp_enable8), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output8)
 );
 
 register32 gp_register9 (
-    .clear(clear), .clock(clock), .enable(gp_enable9), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out9)
+    .clear(clear), .clock(clock), .enable(gp_enable9), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output9)
 );
 
 register32 gp_register10 (
-    .clear(clear), .clock(clock), .enable(gp_enable10), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out10)
+    .clear(clear), .clock(clock), .enable(gp_enable10), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output10)
 );
 
 register32 gp_register11 (
-    .clear(clear), .clock(clock), .enable(gp_enable11), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out11)
+    .clear(clear), .clock(clock), .enable(gp_enable11), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output11)
 );
 
 register32 gp_register12 (
-    .clear(clear), .clock(clock), .enable(gp_enable12), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out12)
+    .clear(clear), .clock(clock), .enable(gp_enable12), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output12)
 );
 
 register32 gp_register13 (
-    .clear(clear), .clock(clock), .enable(gp_enable13), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out13)
+    .clear(clear), .clock(clock), .enable(gp_enable13), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output13)
 );
 
 register32 gp_register14 (
-    .clear(clear), .clock(clock), .enable(gp_enable14), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out14)
+    .clear(clear), .clock(clock), .enable(gp_enable14), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output14)
 );
 register32 gp_register15 (
-    .clear(clear), .clock(clock), .enable(gp_enable15), .BusMuxOut(BusMuxout), .BusMuxIn(gp_out15)
+    .clear(clear), .clock(clock), .enable(gp_enable15), .BusMuxOut(BusMuxOut), .BusMuxIn(gp_output15)
 );
 
 // Instantiate the Bus module
 Bus bus_instance (
-    .gp_output0(gp_out0),
-    .gp_output1(gp_out1),
-    .gp_output2(gp_out2),
-    .gp_output3(gp_out3),
-    .gp_output4(gp_out4),
-    .gp_output5(gp_out5),
-    .gp_output6(gp_out6),
-    .gp_output7(gp_out7),
-    .gp_output8(gp_out8),
-    .gp_output9(gp_out9),
-    .gp_output10(gp_out10),
-    .gp_output11(gp_out11),
-    .gp_output12(gp_out12),
-    .gp_output13(gp_out13),
-    .gp_output14(gp_out14),
-    .gp_output15(gp_out15),
+    .gp_output0(gp_output0),
+    .gp_output1(gp_output1),
+    .gp_output2(gp_output2),
+    .gp_output3(gp_output3),
+    .gp_output4(gp_output4),
+    .gp_output5(gp_output5),
+    .gp_output6(gp_output6),
+    .gp_output7(gp_output7),
+    .gp_output8(gp_output8),
+    .gp_output9(gp_output9),
+    .gp_output10(gp_output10),
+    .gp_output11(gp_output11),
+    .gp_output12(gp_output12),
+    .gp_output13(gp_output13),
+    .gp_output14(gp_output14),
+    .gp_output15(gp_output15),
 	 .hi_output(HI_out),
 	 .lo_output(LO_out),
-	 .zhi_output(Z_out[63:32]),
-	 .zlo_output(Z_out[31:0]),
+	 .zhi_output(zlo_out),
+	 .zlo_output(zhi_out),
 	 .pc_output(PC_out),
 	 .mdr_output(MDR_out),
 	 .inport_output(inport_output),
@@ -217,14 +221,14 @@ Bus bus_instance (
 	 .inport_enable(inport_enable),
 	 .c_enable(c_enable),
 	 
-	 .BusMuxOut(BusMuxout)
+	 .BusMuxOut(BusMuxOut)
 );
 
 alu alu_instance(
-	.A(gp_out1),
-	.B(gp_out2),
+	.A(gp_output1),
+	.B(gp_output2),
 	.operation(opcode),
-	.Z_lo(Z_out[31:0]),
-	.Z_hi(Z_out[63:32])
+	.Z_lo(zlo_out),
+	.Z_hi(zhi_out)
 );
 endmodule

@@ -14,7 +14,6 @@ vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd
 vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v}
 vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/encoder.v}
 vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/PC_Register.v}
-vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register64.v}
 vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v}
 vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/division.v}
 

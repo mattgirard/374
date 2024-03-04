@@ -53,7 +53,7 @@ module Bus (
 );
 
 reg [31:0] q;
-wire [4:0] encoder_output;
+wire [4:0] encode_output;
 
 // Concatenate all enable signals into one 32-bit bus
 wire [31:0] enable_bus = {
