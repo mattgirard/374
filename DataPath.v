@@ -1,7 +1,7 @@
 // Top-level module for the Simple RISC Computer (Mini SRC)
 module DataPath(
     input PCout, Zloout, MDRout, R2out, R3out, //control signals for outputting data from registers
-    input MAR_in, Z_in, PC_in, MDR_in, IR_in, Y_in, //control signals for inputting data to registers
+    input MAR_in, Z_in, PCin, MDR_in, IR_in, Y_in, //control signals for inputting data to registers
     input IncPC, Read, 
 	 input [3:0] opcode,
 	 input R1_in, R2_in, R3_in,
@@ -225,8 +225,8 @@ Bus bus_instance (
 );
 
 alu alu_instance(
-	.A(gp_output1),
-	.B(gp_output2),
+	.A(gp_output2),
+	.B(gp_output3),
 	.operation(opcode),
 	.Z_lo(zlo_out),
 	.Z_hi(zhi_out)
