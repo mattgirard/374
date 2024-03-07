@@ -58,7 +58,7 @@ always @(Present_state) // do the required job in each state
 		end
 		
 		Reg_load1a: begin
-				Mdatain <= 32'h00000012;
+				Mdatain <= 32'h000000C;
 				Read = 0; MDRin = 0; // the first zero is there for completeness
 				#10 Read <= 1; MDRin <= 1; // and the first 10ns might not be needed depending on your
 				#15 Read <= 0; MDRin <= 0; // implementation; same goes for the other states
@@ -68,7 +68,7 @@ always @(Present_state) // do the required job in each state
 				#15 MDRout <= 0; R2in <= 0; // initialize R2 with the value $12
 		end
 		Reg_load2a: begin
-				Mdatain <= 32'h00000014;
+				Mdatain <= 32'h0000000D;
 				#10 Read <= 1; MDRin <= 1;
 				#15 Read <= 0; MDRin <= 0;
 		end
@@ -77,7 +77,7 @@ always @(Present_state) // do the required job in each state
 				#15 MDRout <= 0; R3in <= 0; // initialize R3 with the value $14
 		end
 		Reg_load3a: begin
-				Mdatain <= 32'h00000018;
+				Mdatain <= 32'h00000012;
 				#10 Read <= 1; MDRin <= 1;
 				#15 Read <= 0; MDRin <= 0;
 		end
@@ -87,16 +87,27 @@ always @(Present_state) // do the required job in each state
 		end
 		T0: begin // see if you need to de-assert these signals
 				PCout <= 1; MARin <= 1; IncPC <= 1; Zin <= 1;
+				#10
+				PCout <= 0; MARin <= 0; IncPC <= 0; Zin <= 0;
+
 		end
 		T1: begin
 				Zlowout <= 1; PCin <= 1; Read <= 1; MDRin <= 1;
 				Mdatain <= 32'h28918000; // opcode for “and R1, R2, R3”
+				#10 
+				Zlowout <= 0; PCin <= 0; Read <= 0; MDRin <= 0;
+
 		end
 		T2: begin
 				MDRout <= 1; IRin <= 1;
+				#10
+				MDRout <= 0; IRin <= 0;
+
 		end
 		T3: begin
 				R2out <= 1; Yin <= 1;
+				#10
+				R2out<=0; Yin <= 0;
 		end
 		T4: begin
 				R3out <= 1; opcode <= 4'b01010; Zin <= 1;

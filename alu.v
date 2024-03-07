@@ -50,21 +50,21 @@ always @(*)
 begin
 
     case(operation)
-        4'b00011: Z_lo = add_result; // ADD operation using the adder module
-        4'b00100: Z_lo = subtract_result;      // SUB operation
-        4'b01010: Z_lo = A & B;      // AND operation
-        4'b01011: Z_lo  = A | B;      // OR operation
-		  4'b01111: begin Z_lo  = multiply_result[31:0]; 
+        5'b00011: Z_lo = add_result; // ADD operation using the adder module
+        5'b00100: Z_lo = subtract_result;      // SUB operation
+        5'b01010: Z_lo = A & B;      // AND operation
+        5'b01011: Z_lo  = A | B;      // OR operation
+		  5'b01111: begin Z_lo  = multiply_result[31:0]; 
 						Z_hi = multiply_result[63:32]; 
 						end // MUL operation
-        4'b10000: Z_lo  = A / B; // DIV operation
-		  4'b10001: Z_lo  = ~A + 1; // Negate operation
-        4'b10010: Z_lo  = ~A; // NOT operation
-        4'b00110: Z_lo  = A | B; // Shift Right Arithmetic operation (shra)
-        4'b00101: Z_lo  = A | B; // Shift Right Logical operation (shr)
-		  4'b00111: Z_lo  = A | B; // Shift Left Logical operation (shl)
-		  4'b01001: Z_lo  = A | B; // Rotate Left operation (rol)
-		  4'b01000: Z_lo  = A | B; // Rotate Right operation (ror)
+        5'b10000: Z_lo  = A / B; // DIV operation
+		  5'b10001: Z_lo  = ~A + 1; // Negate operation
+        5'b10010: Z_lo  = ~A; // NOT operation
+        5'b00110: Z_lo  = A | B; // Shift Right Arithmetic operation (shra)
+        5'b00101: Z_lo  = A | B; // Shift Right Logical operation (shr)
+		  5'b00111: Z_lo  = A | B; // Shift Left Logical operation (shl)
+		  5'b01001: Z_lo  = A | B; // Rotate Left operation (rol)
+		  5'b01000: Z_lo  = A | B; // Rotate Right operation (ror)
         default: begin 
 						Z_lo  = 32'h0; 
 					  Z_hi = 32'h0 ; 

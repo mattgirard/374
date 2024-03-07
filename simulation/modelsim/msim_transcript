@@ -12,167 +12,130 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:04:17 on Mar 04,2024
+# Start time: 19:36:08 on Mar 06,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/adder.v 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 14:04:17 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 19:36:08 on Mar 06,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:04:18 on Mar 04,2024
+# Start time: 19:36:08 on Mar 06,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v 
 # -- Compiling module Bus
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(75): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(76): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(77): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(78): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(79): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(80): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(81): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(82): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(83): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(84): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(85): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(86): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(87): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(88): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(89): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(90): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(91): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(92): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(93): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(94): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(95): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(96): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(97): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/Bus.v(98): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # 
 # Top level modules:
 # 	Bus
-# End time: 14:04:18 on Mar 04,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 24
+# End time: 19:36:08 on Mar 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:04:18 on Mar 04,2024
+# Start time: 19:36:08 on Mar 06,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v 
 # -- Compiling module DataPath
 # 
 # Top level modules:
 # 	DataPath
-# End time: 14:04:18 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 19:36:08 on Mar 06,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:04:18 on Mar 04,2024
+# Start time: 19:36:08 on Mar 06,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/subtract.v 
 # -- Compiling module subtractor
 # 
 # Top level modules:
 # 	subtractor
-# End time: 14:04:18 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 19:36:08 on Mar 06,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:04:18 on Mar 04,2024
+# Start time: 19:36:08 on Mar 06,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v 
 # -- Compiling module alu
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(53): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(54): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(55): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(56): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(57): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(60): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(61): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(62): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(63): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(64): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(65): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(66): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(67): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # 
 # Top level modules:
 # 	alu
-# End time: 14:04:18 on Mar 04,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 13
+# End time: 19:36:08 on Mar 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/MDR.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:04:18 on Mar 04,2024
+# Start time: 19:36:08 on Mar 06,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/MDR.v 
 # -- Compiling module MDR
 # 
 # Top level modules:
 # 	MDR
-# End time: 14:04:18 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 19:36:08 on Mar 06,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:04:18 on Mar 04,2024
+# Start time: 19:36:08 on Mar 06,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/multiplication.v 
 # -- Compiling module multiplication
 # 
 # Top level modules:
 # 	multiplication
-# End time: 14:04:18 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 19:36:08 on Mar 06,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/encoder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:04:18 on Mar 04,2024
+# Start time: 19:36:08 on Mar 06,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/encoder.v 
 # -- Compiling module encoder5
 # 
 # Top level modules:
 # 	encoder5
-# End time: 14:04:18 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 19:36:08 on Mar 06,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/PC_Register.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:04:18 on Mar 04,2024
+# Start time: 19:36:08 on Mar 06,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/PC_Register.v 
 # -- Compiling module PC_Register
 # 
 # Top level modules:
 # 	PC_Register
-# End time: 14:04:18 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 19:36:08 on Mar 06,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:04:18 on Mar 04,2024
+# Start time: 19:36:08 on Mar 06,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/register32.v 
 # -- Compiling module register32
 # 
 # Top level modules:
 # 	register32
-# End time: 14:04:18 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 19:36:08 on Mar 06,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/division.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:04:18 on Mar 04,2024
+# Start time: 19:36:08 on Mar 06,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/division.v 
 # -- Compiling module division
 # 
 # Top level modules:
 # 	division
-# End time: 14:04:18 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 19:36:08 on Mar 06,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd\ year/Winter/374/374 {C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/datapath_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:04:18 on Mar 04,2024
+# Start time: 19:36:08 on Mar 06,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374" C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/datapath_tb.v 
 # -- Compiling module datapath_tb
-# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/datapath_tb.v(102): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/datapath_tb.v(113): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # 
 # Top level modules:
 # 	datapath_tb
-# End time: 14:04:18 on Mar 04,2024, Elapsed time: 0:00:00
+# End time: 19:36:08 on Mar 06,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  datapath_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" datapath_tb 
-# Start time: 14:04:18 on Mar 04,2024
+# Start time: 19:36:08 on Mar 06,2024
 # Loading work.datapath_tb
 # Loading work.DataPath
 # Loading work.MDR
@@ -185,6 +148,12 @@
 # Loading work.subtractor
 # Loading work.multiplication
 # Loading work.division
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(234): [PCDPC] - Port size (32) does not match connection size (1) for port 'B'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/alu_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(234): [PCDPC] - Port size (32) does not match connection size (1) for port 'Z_lo'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/alu_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(234): [PCDPC] - Port size (32) does not match connection size (1) for port 'Z_hi'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/alu_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
 # 
 # add wave *
 # view structure
@@ -193,6 +162,43 @@
 # .main_pane.objects.interior.cs.body.tree
 # run 500 ns
 # Error: Division by zero.
-add wave -position end sim:/datapath_tb/datapath/Zlo_register/*
-# End time: 14:16:58 on Mar 04,2024, Elapsed time: 0:12:40
-# Errors: 0, Warnings: 0
+add wave -position end  sim:/datapath_tb/datapath/MDR/read
+add wave -position end  sim:/datapath_tb/datapath/MDR/Q
+add wave -position end  sim:/datapath_tb/datapath/MDR/MDMuxOut
+add wave -position end  sim:/datapath_tb/datapath/MDR/Mdatain
+add wave -position end  sim:/datapath_tb/datapath/MDR/BusMuxOut
+restart
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(234): [PCDPC] - Port size (32) does not match connection size (1) for port 'B'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/alu_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(234): [PCDPC] - Port size (32) does not match connection size (1) for port 'Z_lo'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/alu_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(234): [PCDPC] - Port size (32) does not match connection size (1) for port 'Z_hi'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/alu_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
+run 500ns
+# Error: Division by zero.
+add wave -position end  sim:/datapath_tb/datapath/Zlo_register/q
+add wave -position end  sim:/datapath_tb/datapath/Zlo_register/DATA_WIDTH_OUT
+add wave -position end  sim:/datapath_tb/datapath/Zlo_register/DATA_WIDTH_IN
+add wave -position end  sim:/datapath_tb/datapath/Zlo_register/BusMuxOut
+restart
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(234): [PCDPC] - Port size (32) does not match connection size (1) for port 'B'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/alu_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(234): [PCDPC] - Port size (32) does not match connection size (1) for port 'Z_lo'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/alu_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(234): [PCDPC] - Port size (32) does not match connection size (1) for port 'Z_hi'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/alu_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
+run 500ns
+# Error: Division by zero.
+add wave -position end  sim:/datapath_tb/datapath/gp_register2/q
+add wave -position end  sim:/datapath_tb/datapath/gp_register2/DATA_WIDTH_OUT
+add wave -position end  sim:/datapath_tb/datapath/gp_register2/DATA_WIDTH_IN
+add wave -position end  sim:/datapath_tb/datapath/gp_register2/BusMuxOut
+restart
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(234): [PCDPC] - Port size (32) does not match connection size (1) for port 'B'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/alu_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(234): [PCDPC] - Port size (32) does not match connection size (1) for port 'Z_lo'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/alu_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
+# ** Warning: (vsim-3015) C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/DataPath.v(234): [PCDPC] - Port size (32) does not match connection size (1) for port 'Z_hi'. The port definition is at: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/datapath/alu_instance File: C:/Users/itsma/OneDrive/Desktop/Queens/3rd year/Winter/374/374/alu.v
+run 500ns
+# Error: Division by zero.

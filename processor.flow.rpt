@@ -1,5 +1,5 @@
 Flow report for processor
-Mon Mar 04 12:49:06 2024
+Wed Mar 06 19:39:41 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Mon Mar 04 12:49:06 2024       ;
+; Flow Status                 ; Successful - Wed Mar 06 19:39:41 2024       ;
 ; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name               ; processor                                   ;
 ; Top-level Entity Name       ; DataPath                                    ;
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/04/2024 12:48:55 ;
+; Start date & time ; 03/06/2024 19:39:32 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; processor           ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 1099197930891.170957453413464          ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 1099197930891.170977197230504          ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; datapath_tb    ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; datapath_tb                            ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
@@ -104,8 +104,8 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:12     ; 1.0                     ; 4780 MB             ; 00:00:11                           ;
-; Total                  ; 00:00:12     ; --                      ; --                  ; 00:00:11                           ;
+; Analysis & Elaboration ; 00:00:10     ; 1.0                     ; 4781 MB             ; 00:00:04                           ;
+; Total                  ; 00:00:10     ; --                      ; --                  ; 00:00:04                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
